@@ -39,28 +39,49 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "This page is set up for two audiences: researchers who want the full paper trail, and hiring committees who need the story quickly."
+    "text": "This page gathers peer-reviewed papers, preprints, and developing manuscripts from my work on marine climate change, conservation planning, climate velocity, and ocean biodiversity."
   },
   {
-    "objectID": "publications.html#selected-publications",
-    "href": "publications.html#selected-publications",
+    "objectID": "publications.html#recent-papers",
+    "href": "publications.html#recent-papers",
     "title": "Publications",
-    "section": "Selected Publications",
-    "text": "Selected Publications\n\n\nAdd your latest publication title here.\nDr Isaac Brito-Morales, Coauthors. Journal, Year.\nShort one-sentence summary of the paper’s contribution, written for a broad scientific audience.\nPaper · Code · Data\n\n\nOcean climate velocities and marine biodiversity change.\nDr Isaac Brito-Morales, Coauthors. Journal, Year.\nReplace this placeholder with one of your strongest papers and a crisp impact sentence.\nPaper · Plain-language summary\n\n\nMarine conservation planning under climate change.\nDr Isaac Brito-Morales, Coauthors. Journal, Year.\nUse this space for papers that connect your science to decisions, policy, or management.\nPaper"
+    "section": "Recent Papers",
+    "text": "Recent Papers\n\n\nCurrent approaches and future opportunities for climate-smart protected areas.\nBuenafe KCV, Dunn DC, Metaxas A, Schoeman DS, Everett JD, Pidd A, Hanson JO, Bentley LK, Kim SW, Neubert S, Scales KL, Dabala A, Brito-Morales I, Richardson AJ. 2025. Nature Reviews Biodiversity.\nDOI\n\n\nTo save the high seas, plan for climate change.\nHannah L, Irvine A, Brito-Morales I, Fuller S, Davies T, Tittensor D, Reville G, Shackell N, Hennicke J, Stanley R. 2024. Nature.\nDOI\n\n\nClimate velocity drives unexpected southward patterns of species shifts in the Western Mediterranean Sea.\nSanz-Martin M, Hidalgo M, Puerta P, Garcia Molinos J, Zamanillo M, Brito-Morales I, Gonzalez-Irusta JM, Esteban A, Punzon A, Garcia-Rodriguez E, Vivas M, Lopez-Lopez L. 2024. Ecological Indicators.\nDOI\n\n\nDemystifying global climate models for use in the life sciences.\nSchoeman DS, Sen Gupta A, Harrison CS, Everett J, Brito-Morales I, Hannah L, Bopp L, Roehrdanz P, Richardson AJ. 2023. Trends in Ecology & Evolution.\nDOI\n\n\nA metric-based framework for climate-smart conservation planning.\nBuenafe KCV, Dunn D, Everett J, Brito-Morales I, Schoeman DS, Hanson JO, Dabala A, Neubert S, Cannicci S, Kaschner K, Richardson AJ. 2023. Ecological Applications.\nDOI\n\n\nTowards climate-smart, three-dimensional protected areas for biodiversity conservation in the high seas.\nBrito-Morales I, Schoeman DS, Everett J, Klein CJ, Dunn D, Garcia Molinos J, Burrows MT, Buenafe KCV, Dominguez RM, Possingham HP, Richardson AJ. 2022. Nature Climate Change 12, 402-407.\nDOI\n\n\nIncorporating climate velocity into the design of climate-smart networks of marine protected areas.\nArafeh-Dalmau N, Brito-Morales I, Schoeman DS, Possingham HP, Klein CJ, Richardson AJ. 2021. Methods in Ecology and Evolution.\nDOI\n\n\nClimate velocity reveals increasing exposure of deep-ocean biodiversity to future warming.\nBrito-Morales I, Schoeman DS, Garcia Molinos J, Burrows MT, Klein CJ, Arafeh-Dalmau N, Kaschner K, Garilao C, Kesner-Reyes K, Richardson AJ. 2020. Nature Climate Change 10, 576-581.\nDOI\n\n\nClimate velocity can inform conservation in a warming world.\nBrito-Morales I, Garcia Molinos J, Schoeman DS, Burrows MT, Poloczanska ES, Brown CJ, Ferrier S, Harwood TD, Klein CJ, McDonald-Madden E, Moore PJ, Pandolfi JM, Watson JEM, Wenger AS, Richardson AJ. 2018. Trends in Ecology & Evolution 33, 441-457.\nDOI"
   },
   {
-    "objectID": "publications.html#how-to-update-this-page",
-    "href": "publications.html#how-to-update-this-page",
+    "objectID": "publications.html#preprints",
+    "href": "publications.html#preprints",
     "title": "Publications",
-    "section": "How to Update This Page",
-    "text": "How to Update This Page\nIn RStudio, edit publications.qmd. Each publication block is regular Quarto markdown, so you can paste citations, DOI links, abstracts, figures, or code snippets as needed."
+    "section": "Preprints",
+    "text": "Preprints\n\n\nMegafauna show pervasive yet distinct affinity to ocean fronts: the urgent need for adaptive conservation in a warming world.\nIsaac Brito-Morales, Boris Dewitte, Floriane Sudre, Christoph A. Rohner, Elliott L. Hazen, Kylie L. Scales, Matthieu Le Corre, Audrey Jaeger, Sophie Laran, Olivier Bousquet, Ana M. M. Sequeira, Tammy E. Davies, Daniel C. Dunn, Ronel Nel, Lee Hannah, Vincent Rossi. Nature Communications. In review.\nPreprint DOI"
   },
   {
-    "objectID": "publications.html#suggested-sections-to-add",
-    "href": "publications.html#suggested-sections-to-add",
+    "objectID": "publications.html#highly-cited-work",
+    "href": "publications.html#highly-cited-work",
     "title": "Publications",
-    "section": "Suggested Sections To Add",
-    "text": "Suggested Sections To Add\n\nRecent papers\nPreprints\nHighly cited work\nDatasets and software papers\nInvited reviews or perspectives"
+    "section": "Highly Cited Work",
+    "text": "Highly Cited Work\n\n\nClimate velocity can inform conservation in a warming world.\nBrito-Morales I et al. 2018. Trends in Ecology & Evolution.\n\n\nClimate velocity reveals increasing exposure of deep-ocean biodiversity to future warming.\nBrito-Morales I et al. 2020. Nature Climate Change."
+  },
+  {
+    "objectID": "publications.html#datasets-and-software-papers",
+    "href": "publications.html#datasets-and-software-papers",
+    "title": "Publications",
+    "section": "Datasets and Software Papers",
+    "text": "Datasets and Software Papers\n\nUnder construction."
+  },
+  {
+    "objectID": "publications.html#invited-reviews-or-perspectives",
+    "href": "publications.html#invited-reviews-or-perspectives",
+    "title": "Publications",
+    "section": "Invited Reviews or Perspectives",
+    "text": "Invited Reviews or Perspectives\n\nUnder construction."
+  },
+  {
+    "objectID": "publications.html#in-preparation",
+    "href": "publications.html#in-preparation",
+    "title": "Publications",
+    "section": "In Preparation",
+    "text": "In Preparation\n\n\nStatic tools in a dynamic ocean: why marine protection must evolve to survive climate change.\nIsaac Brito-Morales, Lee Hannah. In preparation.\n\n\n30x30 for Climate Change: One if by Land, Two if by Sea.\nLee Hannah, Jennifer Sunday, Isaac Brito-Morales, Jessica Couture, Juliano Palacios-Abrantes, Patrick Roehrdanz, Pablo Marquet, William Cheung. In preparation."
   },
   {
     "objectID": "projects.html",
@@ -109,7 +130,7 @@
     "href": "contact.html#email",
     "title": "Contact",
     "section": "Email",
-    "text": "Email\nAdd preferred email here."
+    "text": "Email\nibritomorales@gmail.com"
   },
   {
     "objectID": "contact.html#profiles",

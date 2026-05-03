@@ -3,11 +3,18 @@ title: "Dr Isaac Brito-Morales"
 description: "Marine ecologist and conservation scientist working across climate change, ocean biodiversity, and reproducible data science."
 page-layout: full
 toc: false
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>
+        header#title-block-header { display: none; }
+        </style>
 ---
 
 ::: {.hero}
 ::: {.hero-copy}
-## Marine ecology, climate risk, and conservation data science
+## Marine ecologist and conservation scientist working across climate change, ocean biodiversity, and reproducible data science.
 
 # Dr Isaac Brito-Morales
 

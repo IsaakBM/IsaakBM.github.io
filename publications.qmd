@@ -1,46 +1,115 @@
 ---
 title: "Publications"
 description: "Selected and recent publications by Dr Isaac Brito-Morales."
+toc: false
 ---
 
-This page is set up for two audiences: researchers who want the full paper trail, and hiring committees who need the story quickly.
+This page gathers peer-reviewed papers, preprints, and developing manuscripts from my work on marine climate change, conservation planning, climate velocity, and ocean biodiversity.
 
-## Selected Publications
+## Recent Papers
 
 ::: {.publication-list}
 ::: {.publication}
-**Add your latest publication title here.**  
-Dr Isaac Brito-Morales, Coauthors. Journal, Year.  
-Short one-sentence summary of the paper's contribution, written for a broad scientific audience.
-
-[Paper](#) · [Code](#) · [Data](#)
+**Current approaches and future opportunities for climate-smart protected areas.**  
+Buenafe KCV, Dunn DC, Metaxas A, Schoeman DS, Everett JD, Pidd A, Hanson JO, Bentley LK, Kim SW, Neubert S, Scales KL, Dabala A, **Brito-Morales I**, Richardson AJ. 2025. *Nature Reviews Biodiversity*.  
+[DOI](https://doi.org/10.1038/s44358-025-00041-0)
 :::
 
 ::: {.publication}
-**Ocean climate velocities and marine biodiversity change.**  
-Dr Isaac Brito-Morales, Coauthors. Journal, Year.  
-Replace this placeholder with one of your strongest papers and a crisp impact sentence.
-
-[Paper](#) · [Plain-language summary](#)
+**To save the high seas, plan for climate change.**  
+Hannah L, Irvine A, **Brito-Morales I**, Fuller S, Davies T, Tittensor D, Reville G, Shackell N, Hennicke J, Stanley R. 2024. *Nature*.  
+[DOI](https://doi.org/10.1038/d41586-024-01720-2)
 :::
 
 ::: {.publication}
-**Marine conservation planning under climate change.**  
-Dr Isaac Brito-Morales, Coauthors. Journal, Year.  
-Use this space for papers that connect your science to decisions, policy, or management.
+**Climate velocity drives unexpected southward patterns of species shifts in the Western Mediterranean Sea.**  
+Sanz-Martin M, Hidalgo M, Puerta P, Garcia Molinos J, Zamanillo M, **Brito-Morales I**, Gonzalez-Irusta JM, Esteban A, Punzon A, Garcia-Rodriguez E, Vivas M, Lopez-Lopez L. 2024. *Ecological Indicators*.  
+[DOI](https://doi.org/10.1016/j.ecolind.2024.111741)
+:::
 
-[Paper](#)
+::: {.publication}
+**Demystifying global climate models for use in the life sciences.**  
+Schoeman DS, Sen Gupta A, Harrison CS, Everett J, **Brito-Morales I**, Hannah L, Bopp L, Roehrdanz P, Richardson AJ. 2023. *Trends in Ecology & Evolution*.  
+[DOI](https://doi.org/10.1016/j.tree.2023.04.005)
+:::
+
+::: {.publication}
+**A metric-based framework for climate-smart conservation planning.**  
+Buenafe KCV, Dunn D, Everett J, **Brito-Morales I**, Schoeman DS, Hanson JO, Dabala A, Neubert S, Cannicci S, Kaschner K, Richardson AJ. 2023. *Ecological Applications*.  
+[DOI](https://doi.org/10.1002/eap.2852)
+:::
+
+::: {.publication}
+**Towards climate-smart, three-dimensional protected areas for biodiversity conservation in the high seas.**  
+**Brito-Morales I**, Schoeman DS, Everett J, Klein CJ, Dunn D, Garcia Molinos J, Burrows MT, Buenafe KCV, Dominguez RM, Possingham HP, Richardson AJ. 2022. *Nature Climate Change* 12, 402-407.  
+[DOI](https://doi.org/10.1038/s41558-022-01323-7)
+:::
+
+::: {.publication}
+**Incorporating climate velocity into the design of climate-smart networks of marine protected areas.**  
+Arafeh-Dalmau N, **Brito-Morales I**, Schoeman DS, Possingham HP, Klein CJ, Richardson AJ. 2021. *Methods in Ecology and Evolution*.  
+[DOI](https://doi.org/10.1111/2041-210X.13675)
+:::
+
+::: {.publication}
+**Climate velocity reveals increasing exposure of deep-ocean biodiversity to future warming.**  
+**Brito-Morales I**, Schoeman DS, Garcia Molinos J, Burrows MT, Klein CJ, Arafeh-Dalmau N, Kaschner K, Garilao C, Kesner-Reyes K, Richardson AJ. 2020. *Nature Climate Change* 10, 576-581.  
+[DOI](https://doi.org/10.1038/s41558-020-0773-5)
+:::
+
+::: {.publication}
+**Climate velocity can inform conservation in a warming world.**  
+**Brito-Morales I**, Garcia Molinos J, Schoeman DS, Burrows MT, Poloczanska ES, Brown CJ, Ferrier S, Harwood TD, Klein CJ, McDonald-Madden E, Moore PJ, Pandolfi JM, Watson JEM, Wenger AS, Richardson AJ. 2018. *Trends in Ecology & Evolution* 33, 441-457.  
+[DOI](https://doi.org/10.1016/j.tree.2018.03.009)
 :::
 :::
 
-## How to Update This Page
+## Preprints
 
-In RStudio, edit `publications.qmd`. Each publication block is regular Quarto markdown, so you can paste citations, DOI links, abstracts, figures, or code snippets as needed.
+::: {.publication-list}
+::: {.publication}
+**Megafauna show pervasive yet distinct affinity to ocean fronts: the urgent need for adaptive conservation in a warming world.**  
+**Isaac Brito-Morales**, Boris Dewitte, Floriane Sudre, Christoph A. Rohner, Elliott L. Hazen, Kylie L. Scales, Matthieu Le Corre, Audrey Jaeger, Sophie Laran, Olivier Bousquet, Ana M. M. Sequeira, Tammy E. Davies, Daniel C. Dunn, Ronel Nel, Lee Hannah, Vincent Rossi. *Nature Communications*. In review.  
+[Preprint DOI](https://doi.org/10.1101/2025.06.17.660201)
+:::
+:::
 
-## Suggested Sections To Add
+## Highly Cited Work
 
-- Recent papers
-- Preprints
-- Highly cited work
-- Datasets and software papers
-- Invited reviews or perspectives
+::: {.publication-list}
+::: {.publication}
+**Climate velocity can inform conservation in a warming world.**  
+**Brito-Morales I** et al. 2018. *Trends in Ecology & Evolution*.  
+:::
+
+::: {.publication}
+**Climate velocity reveals increasing exposure of deep-ocean biodiversity to future warming.**  
+**Brito-Morales I** et al. 2020. *Nature Climate Change*.  
+:::
+:::
+
+## Datasets and Software Papers
+
+::: {.construction}
+Under construction.
+:::
+
+## Invited Reviews or Perspectives
+
+::: {.construction}
+Under construction.
+:::
+
+## In Preparation
+
+::: {.publication-list}
+::: {.publication}
+**Static tools in a dynamic ocean: why marine protection must evolve to survive climate change.**  
+**Isaac Brito-Morales**, Lee Hannah. In preparation.
+:::
+
+::: {.publication}
+**30x30 for Climate Change: One if by Land, Two if by Sea.**  
+Lee Hannah, Jennifer Sunday, **Isaac Brito-Morales**, Jessica Couture, Juliano Palacios-Abrantes, Patrick Roehrdanz, Pablo Marquet, William Cheung. In preparation.
+:::
+:::

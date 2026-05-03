@@ -50,7 +50,7 @@ format:
     theme:
       light: [cosmo, styles.scss]
     toc: true
-    page-layout: full
+    page-layout: article
     anchor-sections: true
     smooth-scroll: true
 
