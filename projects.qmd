@@ -1,0 +1,46 @@
+---
+title: "Projects"
+description: "Reusable research, workshops, datasets, and tools."
+---
+
+Projects make the site useful beyond a CV. This is where people can find things to reuse, cite, adapt, or invite you to talk about.
+
+::: {.project-grid}
+::: {.project-card}
+## Ocean Fronts and Biodiversity
+
+Research on how oceanographic fronts structure marine biodiversity and conservation priorities.
+
+**Useful for:** conservation planning, spatial ecology, climate adaptation.
+
+[Project link](https://www.conservation.org/projects/oceanfrontchange)
+:::
+
+::: {.project-card}
+## Reproducible Marine Ecology in R
+
+Starter material for transparent analysis, maps, species distribution workflows, and environmental data processing.
+
+**Useful for:** students, collaborators, workshop participants.
+
+[GitHub](https://github.com/IsaakBM)
+:::
+
+::: {.project-card}
+## Workshops and Teaching
+
+A home for slides, practicals, notebooks, and data examples from workshops or short courses.
+
+**Useful for:** teaching, mentoring, and professional visibility.
+
+[Add materials](#)
+:::
+:::
+
+## Add Next
+
+- A page for each major project
+- Screenshots or maps
+- Reproducible notebooks
+- Links to GitHub repositories
+- Short "how to cite/use this" notes

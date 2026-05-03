@@ -1,0 +1,19 @@
+---
+title: "A New Home for Research, Tools, and Notes"
+description: "Why this site exists and what will live here."
+date: "2026-05-02"
+categories: [website, research, notes]
+image: ../../content/images/isaac-brito-morales.jpg
+---
+
+This site is a place to collect my research, publications, reusable code, teaching material, and short notes on marine ecology, climate change, conservation planning, and reproducible data science.
+
+Over time, I plan to use this space for:
+
+- plain-language summaries of new papers
+- reusable R workflows
+- workshop material
+- project notes
+- reflections on conservation science and career transitions
+
+The goal is simple: make the work easier to find, understand, reuse, and share.

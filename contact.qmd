@@ -1,0 +1,31 @@
+---
+title: "Contact"
+description: "Contact Isaac Brito-Morales."
+---
+
+I am open to conversations about research collaborations, conservation science, data science roles, workshops, and invited talks.
+
+::: {.contact-grid}
+::: {.contact-card}
+## Email
+
+Add preferred email here.
+:::
+
+::: {.contact-card}
+## Profiles
+
+[GitHub](https://github.com/IsaakBM)  
+[LinkedIn](https://www.linkedin.com/in/isaakbm/)  
+[ResearchGate](https://www.researchgate.net/profile/Isaac-Brito-Morales)  
+[Google Scholar](https://scholar.google.com/)
+:::
+
+::: {.contact-card}
+## Materials
+
+[Download CV](content/pdf/CV_academic_v2024_11.pdf)  
+[Browse publications](publications.qmd)  
+[Explore projects](projects.qmd)
+:::
+:::

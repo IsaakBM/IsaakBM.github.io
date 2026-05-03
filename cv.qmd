@@ -1,0 +1,45 @@
+---
+title: "CV"
+description: "Curriculum vitae and professional profile."
+---
+
+[Download the current PDF CV](content/pdf/CV_academic_v2024_11.pdf){.btn .btn-primary}
+
+## Profile
+
+Marine ecologist and conservation scientist working on climate change, biodiversity, species redistributions, and reproducible environmental data science.
+
+## Experience
+
+**Senior Associate Scientist, Conservation International**  
+July 2024 - Present
+
+**Associate Research Scientist, Conservation International**  
+November 2021 - June 2024
+
+**Research Associate, UC Santa Barbara Marine Science Institute**  
+November 2024 - Present
+
+**Affiliated Researcher, UC Santa Barbara Marine Science Institute**  
+January 2022 - October 2024
+
+**Postdoctoral Research Fellow, The University of Queensland**  
+February 2021 - September 2021
+
+## Education
+
+**PhD in Biological Sciences, The University of Queensland**  
+Climate Change and Conservation, 2021
+
+**BSc in Marine Biology, Universidad Católica de la Santísima Concepción**  
+First Class Honours, 2008
+
+## Job Search Version
+
+Later we can turn this page into a more strategic profile with:
+
+- Selected achievements
+- Technical skills
+- Leadership and collaboration examples
+- Short recommendation quotes
+- Downloadable academic and non-academic CV versions

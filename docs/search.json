@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download the current PDF CV"
+  },
+  {
+    "objectID": "cv.html#profile",
+    "href": "cv.html#profile",
+    "title": "CV",
+    "section": "Profile",
+    "text": "Profile\nMarine ecologist and conservation scientist working on climate change, biodiversity, species redistributions, and reproducible environmental data science."
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "CV",
+    "section": "Experience",
+    "text": "Experience\nSenior Associate Scientist, Conservation International\nJuly 2024 - Present\nAssociate Research Scientist, Conservation International\nNovember 2021 - June 2024\nResearch Associate, UC Santa Barbara Marine Science Institute\nNovember 2024 - Present\nAffiliated Researcher, UC Santa Barbara Marine Science Institute\nJanuary 2022 - October 2024\nPostdoctoral Research Fellow, The University of Queensland\nFebruary 2021 - September 2021"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\nPhD in Biological Sciences, The University of Queensland\nClimate Change and Conservation, 2021\nBSc in Marine Biology, Universidad Católica de la Santísima Concepción\nFirst Class Honours, 2008"
+  },
+  {
+    "objectID": "cv.html#job-search-version",
+    "href": "cv.html#job-search-version",
+    "title": "CV",
+    "section": "Job Search Version",
+    "text": "Job Search Version\nLater we can turn this page into a more strategic profile with:\n\nSelected achievements\nTechnical skills\nLeadership and collaboration examples\nShort recommendation quotes\nDownloadable academic and non-academic CV versions"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "This page is set up for two audiences: researchers who want the full paper trail, and hiring committees who need the story quickly."
+  },
+  {
+    "objectID": "publications.html#selected-publications",
+    "href": "publications.html#selected-publications",
+    "title": "Publications",
+    "section": "Selected Publications",
+    "text": "Selected Publications\n\n\nAdd your latest publication title here.\nIsaac Brito-Morales, Coauthors. Journal, Year.\nShort one-sentence summary of the paper’s contribution, written for a broad scientific audience.\nPaper · Code · Data\n\n\nOcean climate velocities and marine biodiversity change.\nIsaac Brito-Morales, Coauthors. Journal, Year.\nReplace this placeholder with one of your strongest papers and a crisp impact sentence.\nPaper · Plain-language summary\n\n\nMarine conservation planning under climate change.\nIsaac Brito-Morales, Coauthors. Journal, Year.\nUse this space for papers that connect your science to decisions, policy, or management.\nPaper"
+  },
+  {
+    "objectID": "publications.html#how-to-update-this-page",
+    "href": "publications.html#how-to-update-this-page",
+    "title": "Publications",
+    "section": "How to Update This Page",
+    "text": "How to Update This Page\nIn RStudio, edit publications.qmd. Each publication block is regular Quarto markdown, so you can paste citations, DOI links, abstracts, figures, or code snippets as needed."
+  },
+  {
+    "objectID": "publications.html#suggested-sections-to-add",
+    "href": "publications.html#suggested-sections-to-add",
+    "title": "Publications",
+    "section": "Suggested Sections To Add",
+    "text": "Suggested Sections To Add\n\nRecent papers\nPreprints\nHighly cited work\nDatasets and software papers\nInvited reviews or perspectives"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Projects make the site useful beyond a CV. This is where people can find things to reuse, cite, adapt, or invite you to talk about."
+  },
+  {
+    "objectID": "projects.html#ocean-fronts-and-biodiversity",
+    "href": "projects.html#ocean-fronts-and-biodiversity",
+    "title": "Projects",
+    "section": "Ocean Fronts and Biodiversity",
+    "text": "Ocean Fronts and Biodiversity\nResearch on how oceanographic fronts structure marine biodiversity and conservation priorities.\nUseful for: conservation planning, spatial ecology, climate adaptation.\nProject link"
+  },
+  {
+    "objectID": "projects.html#reproducible-marine-ecology-in-r",
+    "href": "projects.html#reproducible-marine-ecology-in-r",
+    "title": "Projects",
+    "section": "Reproducible Marine Ecology in R",
+    "text": "Reproducible Marine Ecology in R\nStarter material for transparent analysis, maps, species distribution workflows, and environmental data processing.\nUseful for: students, collaborators, workshop participants.\nGitHub"
+  },
+  {
+    "objectID": "projects.html#workshops-and-teaching",
+    "href": "projects.html#workshops-and-teaching",
+    "title": "Projects",
+    "section": "Workshops and Teaching",
+    "text": "Workshops and Teaching\nA home for slides, practicals, notebooks, and data examples from workshops or short courses.\nUseful for: teaching, mentoring, and professional visibility.\nAdd materials"
+  },
+  {
+    "objectID": "projects.html#add-next",
+    "href": "projects.html#add-next",
+    "title": "Projects",
+    "section": "Add Next",
+    "text": "Add Next\n\nA page for each major project\nScreenshots or maps\nReproducible notebooks\nLinks to GitHub repositories\nShort “how to cite/use this” notes"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I am open to conversations about research collaborations, conservation science, data science roles, workshops, and invited talks."
+  },
+  {
+    "objectID": "contact.html#email",
+    "href": "contact.html#email",
+    "title": "Contact",
+    "section": "Email",
+    "text": "Email\nAdd preferred email here."
+  },
+  {
+    "objectID": "contact.html#profiles",
+    "href": "contact.html#profiles",
+    "title": "Contact",
+    "section": "Profiles",
+    "text": "Profiles\nGitHub\nLinkedIn\nResearchGate\nGoogle Scholar"
+  },
+  {
+    "objectID": "contact.html#materials",
+    "href": "contact.html#materials",
+    "title": "Contact",
+    "section": "Materials",
+    "text": "Materials\nDownload CV\nBrowse publications\nExplore projects"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "A New Home for Research, Tools, and Notes",
+    "section": "",
+    "text": "This site is a place to collect my research, publications, reusable code, teaching material, and short notes on marine ecology, climate change, conservation planning, and reproducible data science.\nOver time, I plan to use this space for:\n\nplain-language summaries of new papers\nreusable R workflows\nworkshop material\nproject notes\nreflections on conservation science and career transitions\n\nThe goal is simple: make the work easier to find, understand, reuse, and share."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Isaac Brito-Morales",
+    "section": "",
+    "text": "I study how climate change reshapes biodiversity in the ocean, and I build reproducible analyses that help conservation decisions travel from data to action.\n\nView publications Download CV"
+  },
+  {
+    "objectID": "index.html#what-i-work-on",
+    "href": "index.html#what-i-work-on",
+    "title": "Isaac Brito-Morales",
+    "section": "What I Work On",
+    "text": "What I Work On\nI am a marine ecologist and conservation scientist focused on species redistribution, marine climate exposure, conservation planning, and open, reproducible workflows in R.\nMy work connects global environmental datasets, ecological theory, and practical conservation needs, with a particular interest in how ocean dynamics shape biodiversity patterns and climate adaptation."
+  },
+  {
+    "objectID": "index.html#featured-highlights",
+    "href": "index.html#featured-highlights",
+    "title": "Isaac Brito-Morales",
+    "section": "Featured Highlights",
+    "text": "Featured Highlights\n\n\nRecent Publications\nAdd your newest papers, preprints, and plain-language summaries so search committees can quickly see your current research arc.\nUpdate publications\n\n\nUseful Projects\nShowcase workshops, datasets, software, maps, notebooks, and decision-support tools that people can actually reuse.\nBrowse projects\n\n\nNotes and Blog\nWrite short posts on methods, R workflows, conservation science, career notes, and things you wish someone had explained earlier.\nRead the blog"
+  },
+  {
+    "objectID": "index.html#current-snapshot",
+    "href": "index.html#current-snapshot",
+    "title": "Isaac Brito-Morales",
+    "section": "Current Snapshot",
+    "text": "Current Snapshot\n\n\nSenior Associate Scientist, Conservation International\nLeading applied research on marine biodiversity, ocean fronts, climate change, and conservation planning.\n\n\nResearch Associate, UC Santa Barbara Marine Science Institute\nCollaborating on marine science, conservation, and global environmental data analysis.\n\n\nPhD, The University of Queensland\nBiological sciences, climate change, and conservation."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Short posts are a good job-search asset: they show how you think, explain, code, and make scientific work usable.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA New Home for Research, Tools, and Notes\n\n\n\nwebsite\n\nresearch\n\nnotes\n\n\n\nWhy this site exists and what will live here.\n\n\n\nIsaac Brito-Morales\n\n\nMay 2, 2026\n\n\n\n\n\n\nNo matching items"
+  }
+]

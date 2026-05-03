@@ -1,0 +1,111 @@
+---
+title: "Isaac Brito-Morales"
+description: "Marine ecologist and conservation scientist working across climate change, ocean biodiversity, and reproducible data science."
+page-layout: full
+toc: false
+---
+
+::: {.hero}
+::: {.hero-copy}
+## Marine ecology, climate risk, and conservation data science
+
+# Isaac Brito-Morales
+
+I study how climate change reshapes biodiversity in the ocean, and I build reproducible analyses that help conservation decisions travel from data to action.
+
+::: {.hero-actions}
+[View publications](publications.qmd){.btn .btn-primary}
+[Download CV](content/pdf/CV_academic_v2024_11.pdf){.btn .btn-outline}
+:::
+:::
+
+::: {.hero-portrait}
+![](content/images/isaac-brito-morales.jpg){fig-alt="Portrait of Isaac Brito-Morales"}
+:::
+:::
+
+::: {.content-band}
+::: {.content-grid}
+::: {.intro-copy}
+## What I Work On
+
+I am a marine ecologist and conservation scientist focused on species redistribution, marine climate exposure, conservation planning, and open, reproducible workflows in R.
+
+My work connects global environmental datasets, ecological theory, and practical conservation needs, with a particular interest in how ocean dynamics shape biodiversity patterns and climate adaptation.
+:::
+
+::: {.stat-panel}
+::: {.stat}
+**Climate change**
+
+Species redistributions, exposure, velocity, and ecological risk.
+:::
+
+::: {.stat}
+**Marine conservation**
+
+Decision-support science for biodiversity, planning, and adaptation.
+:::
+
+::: {.stat}
+**Reproducible R**
+
+Transparent workflows, reusable code, and teaching-friendly analysis.
+:::
+:::
+:::
+:::
+
+::: {.content-band .subtle}
+## Featured Highlights
+
+::: {.feature-grid}
+::: {.feature-card}
+### Recent Publications
+
+Add your newest papers, preprints, and plain-language summaries so search committees can quickly see your current research arc.
+
+[Update publications](publications.qmd)
+:::
+
+::: {.feature-card}
+### Useful Projects
+
+Showcase workshops, datasets, software, maps, notebooks, and decision-support tools that people can actually reuse.
+
+[Browse projects](projects.qmd)
+:::
+
+::: {.feature-card}
+### Notes and Blog
+
+Write short posts on methods, R workflows, conservation science, career notes, and things you wish someone had explained earlier.
+
+[Read the blog](posts.qmd)
+:::
+:::
+:::
+
+::: {.content-band}
+## Current Snapshot
+
+::: {.timeline}
+::: {.timeline-item}
+**Senior Associate Scientist, Conservation International**
+
+Leading applied research on marine biodiversity, ocean fronts, climate change, and conservation planning.
+:::
+
+::: {.timeline-item}
+**Research Associate, UC Santa Barbara Marine Science Institute**
+
+Collaborating on marine science, conservation, and global environmental data analysis.
+:::
+
+::: {.timeline-item}
+**PhD, The University of Queensland**
+
+Biological sciences, climate change, and conservation.
+:::
+:::
+:::

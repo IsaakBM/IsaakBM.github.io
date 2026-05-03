@@ -1,0 +1,46 @@
+---
+title: "Publications"
+description: "Selected and recent publications by Isaac Brito-Morales."
+---
+
+This page is set up for two audiences: researchers who want the full paper trail, and hiring committees who need the story quickly.
+
+## Selected Publications
+
+::: {.publication-list}
+::: {.publication}
+**Add your latest publication title here.**  
+Isaac Brito-Morales, Coauthors. Journal, Year.  
+Short one-sentence summary of the paper's contribution, written for a broad scientific audience.
+
+[Paper](#) · [Code](#) · [Data](#)
+:::
+
+::: {.publication}
+**Ocean climate velocities and marine biodiversity change.**  
+Isaac Brito-Morales, Coauthors. Journal, Year.  
+Replace this placeholder with one of your strongest papers and a crisp impact sentence.
+
+[Paper](#) · [Plain-language summary](#)
+:::
+
+::: {.publication}
+**Marine conservation planning under climate change.**  
+Isaac Brito-Morales, Coauthors. Journal, Year.  
+Use this space for papers that connect your science to decisions, policy, or management.
+
+[Paper](#)
+:::
+:::
+
+## How to Update This Page
+
+In RStudio, edit `publications.qmd`. Each publication block is regular Quarto markdown, so you can paste citations, DOI links, abstracts, figures, or code snippets as needed.
+
+## Suggested Sections To Add
+
+- Recent papers
+- Preprints
+- Highly cited work
+- Datasets and software papers
+- Invited reviews or perspectives

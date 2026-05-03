@@ -1,0 +1,63 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Isaac Brito-Morales"
+  site-url: "https://isaakbm.github.io"
+  description: "Marine ecologist and conservation scientist working on climate change, biodiversity, and reproducible environmental data science."
+  favicon: content/images/isaac-brito-morales.jpg
+  navbar:
+    title: "Isaac Brito-Morales"
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: publications.qmd
+        text: Publications
+      - href: projects.qmd
+        text: Projects
+      - href: posts.qmd
+        text: Blog
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/IsaakBM
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/isaakbm/
+        aria-label: LinkedIn
+      - text: Scholar
+        href: https://scholar.google.com/
+      - text: CV
+        href: content/pdf/CV_academic_v2024_11.pdf
+  page-footer:
+    left: "© Isaac Brito-Morales"
+    right:
+      - icon: github
+        href: https://github.com/IsaakBM
+      - icon: linkedin
+        href: https://www.linkedin.com/in/isaakbm/
+  search:
+    location: navbar
+    type: overlay
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+    toc: true
+    page-layout: full
+    anchor-sections: true
+    smooth-scroll: true
+
+execute:
+  freeze: auto
+  echo: false
+  warning: false
+  message: false
+
+editor: visual
