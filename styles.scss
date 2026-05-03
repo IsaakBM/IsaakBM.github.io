@@ -222,6 +222,12 @@ body:has(.hero) .page-columns .content {
 .publication-list {
   display: grid;
   gap: 1rem;
+  max-width: 100%;
+}
+
+body:not(.floating) main.content > .publication-list,
+body:not(.floating) main.content > div.publication-list {
+  max-width: 100%;
 }
 
 .listing {

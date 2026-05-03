@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 description: "Selected and recent publications by Dr Isaac Brito-Morales."
-toc: false
+toc: true
 ---
 
 This page gathers peer-reviewed papers, preprints, and developing manuscripts from my work on marine climate change, conservation planning, climate velocity, and ocean biodiversity.
