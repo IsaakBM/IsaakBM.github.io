@@ -1,4 +1,4 @@
-# Isaac Brito-Morales personal website
+# Dr Isaac Brito-Morales personal website
 
 Quarto source for <https://isaakbm.github.io>.
 

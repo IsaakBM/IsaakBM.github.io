@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "Contact Isaac Brito-Morales."
+description: "Contact Dr Isaac Brito-Morales."
 ---
 
 I am open to conversations about research collaborations, conservation science, data science roles, workshops, and invited talks.
@@ -24,7 +24,7 @@ Add preferred email here.
 ::: {.contact-card}
 ## Materials
 
-[Download CV](content/pdf/CV_academic_v2024_11.pdf)  
+[Download CV](content/pdf/CV_academic_v02.pdf)  
 [Browse publications](publications.qmd)  
 [Explore projects](projects.qmd)
 :::

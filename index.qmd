@@ -1,5 +1,5 @@
 ---
-title: "Isaac Brito-Morales"
+title: "Dr Isaac Brito-Morales"
 description: "Marine ecologist and conservation scientist working across climate change, ocean biodiversity, and reproducible data science."
 page-layout: full
 toc: false
@@ -9,18 +9,18 @@ toc: false
 ::: {.hero-copy}
 ## Marine ecology, climate risk, and conservation data science
 
-# Isaac Brito-Morales
+# Dr Isaac Brito-Morales
 
 I study how climate change reshapes biodiversity in the ocean, and I build reproducible analyses that help conservation decisions travel from data to action.
 
 ::: {.hero-actions}
 [View publications](publications.qmd){.btn .btn-primary}
-[Download CV](content/pdf/CV_academic_v2024_11.pdf){.btn .btn-outline}
+[Download CV](content/pdf/CV_academic_v02.pdf){.btn .btn-outline}
 :::
 :::
 
 ::: {.hero-portrait}
-![](content/images/isaac-brito-morales.jpg){fig-alt="Portrait of Isaac Brito-Morales"}
+![](content/images/isaac-brito-morales_v02.jpg){fig-alt="Portrait of Dr Isaac Brito-Morales"}
 :::
 :::
 

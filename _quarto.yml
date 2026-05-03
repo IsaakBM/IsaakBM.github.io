@@ -3,12 +3,12 @@ project:
   output-dir: docs
 
 website:
-  title: "Isaac Brito-Morales"
+  title: "Dr Isaac Brito-Morales"
   site-url: "https://isaakbm.github.io"
   description: "Marine ecologist and conservation scientist working on climate change, biodiversity, and reproducible environmental data science."
-  favicon: content/images/isaac-brito-morales.jpg
+  favicon: content/images/isaac-brito-morales_v02.jpg
   navbar:
-    title: "Isaac Brito-Morales"
+    title: "Dr Isaac Brito-Morales"
     pinned: true
     left:
       - href: index.qmd
@@ -33,9 +33,9 @@ website:
       - text: Scholar
         href: https://scholar.google.com/
       - text: CV
-        href: content/pdf/CV_academic_v2024_11.pdf
+        href: content/pdf/CV_academic_v02.pdf
   page-footer:
-    left: "© Isaac Brito-Morales"
+    left: "© Dr Isaac Brito-Morales"
     right:
       - icon: github
         href: https://github.com/IsaakBM
