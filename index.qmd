@@ -1,5 +1,6 @@
 ---
-title: "Dr Isaac Brito-Morales"
+title: ""
+pagetitle: "Dr Isaac Brito-Morales"
 description: "Marine ecologist and conservation scientist working across climate change, ocean biodiversity, and reproducible data science."
 page-layout: full
 toc: false
@@ -8,7 +9,12 @@ format:
     include-in-header:
       text: |
         <style>
-        header#title-block-header { display: none; }
+        header#title-block-header {
+          display: none !important;
+          height: 0 !important;
+          margin: 0 !important;
+          padding: 0 !important;
+        }
         </style>
 ---
 
