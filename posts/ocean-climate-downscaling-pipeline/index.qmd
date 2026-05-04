@@ -1,0 +1,111 @@
+---
+title: "How I Built an Ocean Climate Downscaling Pipeline"
+subtitle: "From raw CESM, GLORYS, and ESGF files to conservation-ready marine layers"
+description: "A narrative overview of an HPC workflow for harmonizing, downscaling, and exporting ocean climate products for conservation science."
+date: "2026-05-03"
+categories: [climate change, oceanography, downscaling, reproducible workflows, HPC]
+image: ../../content/images/isaac-brito-morales_v02.jpg
+---
+
+Raw ocean climate data are powerful, but they rarely arrive in the shape needed for conservation science.
+
+Different products use different grids, vertical levels, time windows, naming conventions, masks, and file layouts. A global climate model might contain the future signal I need, while an ocean reanalysis or hindcast might better represent the current spatial structure. Neither is wrong. They are just not immediately ready to answer questions such as: where might future temperature, oxygen, salinity, or productivity conditions change most for marine species and conservation planning?
+
+That is the gap I wanted to close with my ocean downscaling workflow.
+
+The repository behind this work is not a single script. It is an HPC pipeline for preparing, vertically matching, downscaling, organizing, and exporting ocean model products across several data families, including CESM, GLORYS, IPCC/ESGF products, and a global ocean biogeochemistry hindcast.
+
+## The Problem I Was Solving
+
+For marine conservation, the useful product is often not the raw model output. It is a consistent set of baseline and future layers that can be compared across variables, depths, time windows, and scenarios.
+
+In practice, that means I needed to:
+
+- prepare monthly ocean products on common horizontal grids
+- interpolate variables onto comparable vertical levels
+- compute baseline and future climatology windows
+- estimate future-minus-baseline anomalies
+- add those anomalies to a trusted current-conditions baseline
+- repair missing coastal anomaly cells in a controlled way
+- export outputs into forms collaborators can actually use
+
+That last point matters. A technically correct NetCDF file sitting deep in a cluster directory is not yet a conservation product. It becomes useful when it is organized, documented, and exportable into depth layers, pelagic zones, parquet, CSV, or whatever format downstream users need.
+
+## The Workflow Shape
+
+The pipeline is organized around reusable operations rather than one-off scripts for each dataset. That design choice made the workflow easier to extend as new model products entered the work.
+
+```{mermaid}
+flowchart LR
+  A["Raw ocean products<br/>CESM, GLORYS, ESGF, hindcast"] --> B["Monthly preparation<br/>and horizontal harmonization"]
+  B --> C["Vertical interpolation<br/>to a reference depth grid"]
+  C --> D["Climatology windows<br/>baseline and future"]
+  D --> E["Future - baseline<br/>anomalies / deltas"]
+  E --> F["Trusted baseline + anomaly<br/>downscaled future layer"]
+  F --> G["Coastal and top-layer repair<br/>where methodologically justified"]
+  G --> H["Curated outputs<br/>NetCDF, depth layers, pelagic zones, parquet, CSV"]
+```
+
+Under the hood, the code is split into three roles:
+
+- `scripts/core/`: reusable workers that do the actual processing
+- `scripts/runners/`: dataset-specific launchers that define variables, windows, paths, and assumptions
+- `scripts/tools/`: packaging, organization, depth aggregation, and export utilities
+
+This separation keeps the scientific operation visible. For example, computing a climatology window is a different task from adding an anomaly to a baseline, and both are different from exporting delivery-ready products.
+
+## The Core Downscaling Idea
+
+The statistical downscaling logic is simple enough to write down, but the details around it are where most of the work lives.
+
+::: {.callout-note}
+## Method box
+
+For a given variable and time window:
+
+```text
+future anomaly = future climatology - historical climatology
+
+downscaled future = trusted baseline climatology + future anomaly
+```
+
+The trusted baseline supplies the target spatial structure, grid, vertical levels, and wet mask. The model anomaly supplies the climate-change signal.
+:::
+
+This is not a dynamical ocean simulation. It is a climatology-and-anomaly workflow designed to make coarse or differently structured climate signals usable on a trusted ocean baseline.
+
+## Why The Details Matter
+
+The hard parts were not only computational. They were methodological.
+
+Some products arrive on regular latitude-longitude grids. Others are curvilinear or otherwise awkward to remap. The workflow therefore treats remapping method as a scientific assumption, not just a technical switch. In some cases, the wrong remapping method can introduce visible artifacts that then propagate into later products.
+
+Vertical structure is another issue. Many conservation questions are depth-aware, especially for pelagic systems. The pipeline therefore includes vertical interpolation to a reference GLORYS-like depth grid before climatology and anomaly calculations where comparable depth structure is needed.
+
+Then there are coastlines. Coastal cells are often where conservation decisions matter, but they are also where masks, grids, and model products disagree. In the coastal-fill branch, the workflow repairs missing anomaly cells only inside the trusted target wet mask. The anomaly is repaired before addition; the final absolute field is not blindly smoothed.
+
+That distinction is important. It keeps the trusted baseline in control of the coastline geometry while allowing unresolved anomaly gaps to be filled in a controlled, distance-weighted way.
+
+## From Scientific Workflow To Usable Products
+
+Once the downscaled products exist, the pipeline organizes them into delivery trees:
+
+- baseline products
+- future products
+- fine depth-layer products
+- pelagic-zone products
+- tabular exports for downstream analysis
+
+The pelagic-zone products are especially useful for ecological applications. Instead of forcing every user to work with full 3D files, the workflow can aggregate layers such as epipelagic, mesopelagic, bathypelagic, and abyssopelagic zones using thickness-weighted means.
+
+That makes the products easier to use in species distribution models, exposure analyses, spatial planning workflows, and collaborative projects where not everyone wants to manipulate large NetCDF files directly.
+
+## What I Learned
+
+The biggest lesson is that climate-data processing is not just plumbing. Every step encodes a choice: which baseline to trust, which remapping method to use, how to handle missing coastal cells, how to define climatology windows, how to aggregate depth layers, and how to prevent stale files from entering later stages.
+
+Those choices should be visible and documented.
+
+That is why I now think about workflows like this as scientific infrastructure. They sit between raw climate model output and ecological interpretation. If they are brittle or opaque, the science downstream becomes harder to trust. If they are modular, documented, and explicit about assumptions, they become part of the research contribution.
+
+For me, this pipeline is a step toward making ocean climate products more usable for marine conservation: not just technically processed, but organized in a way that people can inspect, reuse, and build on.

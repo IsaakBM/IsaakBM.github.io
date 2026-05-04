@@ -126,6 +126,55 @@
     "text": "Add Next\n\nA page for each major project\nScreenshots or maps\nReproducible notebooks\nLinks to GitHub repositories\nShort “how to cite/use this” notes"
   },
   {
+    "objectID": "posts/ocean-climate-downscaling-pipeline/index.html",
+    "href": "posts/ocean-climate-downscaling-pipeline/index.html",
+    "title": "How I Built an Ocean Climate Downscaling Pipeline",
+    "section": "",
+    "text": "Raw ocean climate data are powerful, but they rarely arrive in the shape needed for conservation science.\nDifferent products use different grids, vertical levels, time windows, naming conventions, masks, and file layouts. A global climate model might contain the future signal I need, while an ocean reanalysis or hindcast might better represent the current spatial structure. Neither is wrong. They are just not immediately ready to answer questions such as: where might future temperature, oxygen, salinity, or productivity conditions change most for marine species and conservation planning?\nThat is the gap I wanted to close with my ocean downscaling workflow.\nThe repository behind this work is not a single script. It is an HPC pipeline for preparing, vertically matching, downscaling, organizing, and exporting ocean model products across several data families, including CESM, GLORYS, IPCC/ESGF products, and a global ocean biogeochemistry hindcast."
+  },
+  {
+    "objectID": "posts/ocean-climate-downscaling-pipeline/index.html#the-problem-i-was-solving",
+    "href": "posts/ocean-climate-downscaling-pipeline/index.html#the-problem-i-was-solving",
+    "title": "How I Built an Ocean Climate Downscaling Pipeline",
+    "section": "The Problem I Was Solving",
+    "text": "The Problem I Was Solving\nFor marine conservation, the useful product is often not the raw model output. It is a consistent set of baseline and future layers that can be compared across variables, depths, time windows, and scenarios.\nIn practice, that means I needed to:\n\nprepare monthly ocean products on common horizontal grids\ninterpolate variables onto comparable vertical levels\ncompute baseline and future climatology windows\nestimate future-minus-baseline anomalies\nadd those anomalies to a trusted current-conditions baseline\nrepair missing coastal anomaly cells in a controlled way\nexport outputs into forms collaborators can actually use\n\nThat last point matters. A technically correct NetCDF file sitting deep in a cluster directory is not yet a conservation product. It becomes useful when it is organized, documented, and exportable into depth layers, pelagic zones, parquet, CSV, or whatever format downstream users need."
+  },
+  {
+    "objectID": "posts/ocean-climate-downscaling-pipeline/index.html#the-workflow-shape",
+    "href": "posts/ocean-climate-downscaling-pipeline/index.html#the-workflow-shape",
+    "title": "How I Built an Ocean Climate Downscaling Pipeline",
+    "section": "The Workflow Shape",
+    "text": "The Workflow Shape\nThe pipeline is organized around reusable operations rather than one-off scripts for each dataset. That design choice made the workflow easier to extend as new model products entered the work.\n\n\n\n\n\nflowchart LR\n  A[\"Raw ocean products&lt;br/&gt;CESM, GLORYS, ESGF, hindcast\"] --&gt; B[\"Monthly preparation&lt;br/&gt;and horizontal harmonization\"]\n  B --&gt; C[\"Vertical interpolation&lt;br/&gt;to a reference depth grid\"]\n  C --&gt; D[\"Climatology windows&lt;br/&gt;baseline and future\"]\n  D --&gt; E[\"Future - baseline&lt;br/&gt;anomalies / deltas\"]\n  E --&gt; F[\"Trusted baseline + anomaly&lt;br/&gt;downscaled future layer\"]\n  F --&gt; G[\"Coastal and top-layer repair&lt;br/&gt;where methodologically justified\"]\n  G --&gt; H[\"Curated outputs&lt;br/&gt;NetCDF, depth layers, pelagic zones, parquet, CSV\"]\n\n\n\n\n\n\nUnder the hood, the code is split into three roles:\n\nscripts/core/: reusable workers that do the actual processing\nscripts/runners/: dataset-specific launchers that define variables, windows, paths, and assumptions\nscripts/tools/: packaging, organization, depth aggregation, and export utilities\n\nThis separation keeps the scientific operation visible. For example, computing a climatology window is a different task from adding an anomaly to a baseline, and both are different from exporting delivery-ready products."
+  },
+  {
+    "objectID": "posts/ocean-climate-downscaling-pipeline/index.html#the-core-downscaling-idea",
+    "href": "posts/ocean-climate-downscaling-pipeline/index.html#the-core-downscaling-idea",
+    "title": "How I Built an Ocean Climate Downscaling Pipeline",
+    "section": "The Core Downscaling Idea",
+    "text": "The Core Downscaling Idea\nThe statistical downscaling logic is simple enough to write down, but the details around it are where most of the work lives.\n\n\n\n\n\n\nNoteMethod box\n\n\n\nFor a given variable and time window:\nfuture anomaly = future climatology - historical climatology\n\ndownscaled future = trusted baseline climatology + future anomaly\nThe trusted baseline supplies the target spatial structure, grid, vertical levels, and wet mask. The model anomaly supplies the climate-change signal.\n\n\nThis is not a dynamical ocean simulation. It is a climatology-and-anomaly workflow designed to make coarse or differently structured climate signals usable on a trusted ocean baseline."
+  },
+  {
+    "objectID": "posts/ocean-climate-downscaling-pipeline/index.html#why-the-details-matter",
+    "href": "posts/ocean-climate-downscaling-pipeline/index.html#why-the-details-matter",
+    "title": "How I Built an Ocean Climate Downscaling Pipeline",
+    "section": "Why The Details Matter",
+    "text": "Why The Details Matter\nThe hard parts were not only computational. They were methodological.\nSome products arrive on regular latitude-longitude grids. Others are curvilinear or otherwise awkward to remap. The workflow therefore treats remapping method as a scientific assumption, not just a technical switch. In some cases, the wrong remapping method can introduce visible artifacts that then propagate into later products.\nVertical structure is another issue. Many conservation questions are depth-aware, especially for pelagic systems. The pipeline therefore includes vertical interpolation to a reference GLORYS-like depth grid before climatology and anomaly calculations where comparable depth structure is needed.\nThen there are coastlines. Coastal cells are often where conservation decisions matter, but they are also where masks, grids, and model products disagree. In the coastal-fill branch, the workflow repairs missing anomaly cells only inside the trusted target wet mask. The anomaly is repaired before addition; the final absolute field is not blindly smoothed.\nThat distinction is important. It keeps the trusted baseline in control of the coastline geometry while allowing unresolved anomaly gaps to be filled in a controlled, distance-weighted way."
+  },
+  {
+    "objectID": "posts/ocean-climate-downscaling-pipeline/index.html#from-scientific-workflow-to-usable-products",
+    "href": "posts/ocean-climate-downscaling-pipeline/index.html#from-scientific-workflow-to-usable-products",
+    "title": "How I Built an Ocean Climate Downscaling Pipeline",
+    "section": "From Scientific Workflow To Usable Products",
+    "text": "From Scientific Workflow To Usable Products\nOnce the downscaled products exist, the pipeline organizes them into delivery trees:\n\nbaseline products\nfuture products\nfine depth-layer products\npelagic-zone products\ntabular exports for downstream analysis\n\nThe pelagic-zone products are especially useful for ecological applications. Instead of forcing every user to work with full 3D files, the workflow can aggregate layers such as epipelagic, mesopelagic, bathypelagic, and abyssopelagic zones using thickness-weighted means.\nThat makes the products easier to use in species distribution models, exposure analyses, spatial planning workflows, and collaborative projects where not everyone wants to manipulate large NetCDF files directly."
+  },
+  {
+    "objectID": "posts/ocean-climate-downscaling-pipeline/index.html#what-i-learned",
+    "href": "posts/ocean-climate-downscaling-pipeline/index.html#what-i-learned",
+    "title": "How I Built an Ocean Climate Downscaling Pipeline",
+    "section": "What I Learned",
+    "text": "What I Learned\nThe biggest lesson is that climate-data processing is not just plumbing. Every step encodes a choice: which baseline to trust, which remapping method to use, how to handle missing coastal cells, how to define climatology windows, how to aggregate depth layers, and how to prevent stale files from entering later stages.\nThose choices should be visible and documented.\nThat is why I now think about workflows like this as scientific infrastructure. They sit between raw climate model output and ecological interpretation. If they are brittle or opaque, the science downstream becomes harder to trust. If they are modular, documented, and explicit about assumptions, they become part of the research contribution.\nFor me, this pipeline is a step toward making ocean climate products more usable for marine conservation: not just technically processed, but organized in a way that people can inspect, reuse, and build on."
+  },
+  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
@@ -193,6 +242,6 @@
     "href": "posts.html",
     "title": "Blog",
     "section": "",
-    "text": "Short posts are a good job-search asset: they show how you think, explain, code, and make scientific work usable.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA New Home for Research, Tools, and Notes\n\n\n\nwebsite\n\nresearch\n\nnotes\n\n\n\nWhy this site exists and what will live here.\n\n\n\nDr Isaac Brito-Morales\n\n\nMay 2, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Short posts are a good job-search asset: they show how you think, explain, code, and make scientific work usable.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow I Built an Ocean Climate Downscaling Pipeline\n\n\n\nclimate change\n\noceanography\n\ndownscaling\n\nreproducible workflows\n\nHPC\n\n\n\nA narrative overview of an HPC workflow for harmonizing, downscaling, and exporting ocean climate products for conservation science.\n\n\n\nDr Isaac Brito-Morales\n\n\nMay 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nA New Home for Research, Tools, and Notes\n\n\n\nwebsite\n\nresearch\n\nnotes\n\n\n\nWhy this site exists and what will live here.\n\n\n\nDr Isaac Brito-Morales\n\n\nMay 2, 2026\n\n\n\n\n\n\nNo matching items"
   }
 ]
