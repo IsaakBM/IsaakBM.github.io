@@ -4,9 +4,40 @@ description: "Selected and recent publications by Dr Isaac Brito-Morales."
 toc: true
 ---
 
-This page gathers peer-reviewed papers, preprints, and developing manuscripts from my work on marine climate change, conservation planning, climate velocity, and ocean biodiversity.
+This page gathers accepted, in-review, and published work from my research on marine climate change, conservation planning, climate velocity, and ocean biodiversity.
 
-## Recent Papers
+## Accepted / In Press
+
+::: {.publication-list}
+::: {.publication}
+**Identifying marine climate refugia to advance climate-smart conservation.**  
+Marina Sanz-Martin, Carolina Olguin-Jacobson, Jessica A. Bolin, Carla Quiles-Pons, **Isaac Brito-Morales**, Jorge Garcia Molinos, Manuel Hidalgo, Irene D. Alabia, Elena Gissi, Mikaela M. Provost, Fiorenza Micheli, Nur Arafeh-Dalmau. 2026. *Trends in Ecology & Evolution*. Accepted.
+:::
+:::
+
+## In Review
+
+Manuscripts available upon request unless a preprint is linked.
+
+::: {.publication-list}
+::: {.publication}
+**Static tools in a dynamic ocean: why marine protection must evolve to survive climate change.**  
+**Isaac Brito-Morales**, Nur Arafeh-Dalmau, Yulia Egorova, Guillermo Ortuno Crespo, Lee Hannah. In review.
+:::
+
+::: {.publication}
+**Multifaceted thermal exposure reveals climate refugia shortfalls in the Mediterranean marine protected areas.**  
+Ian Omedes Bassat, Manuel Hidalgo, Carla Quiles-Pons, Jorge Garcia Molinos, **Isaac Brito-Morales**, Nur Arafeh-Dalmau, Javier Soto-Navarro, Marina Sanz-Martin. In review.
+:::
+
+::: {.publication}
+**Megafauna show pervasive yet distinct affinity to ocean fronts: the urgent need for adaptive conservation in a warming world.**  
+**Isaac Brito-Morales**, Boris Dewitte, Floriane Sudre, Christoph A. Rohner, Elliott L. Hazen, Kylie L. Scales, Matthieu Le Corre, Audrey Jaeger, Sophie Laran, Olivier Bousquet, Ana M. M. Sequeira, Tammy E. Davies, Daniel C. Dunn, Ronel Nel, Lee Hannah, Vincent Rossi. *Nature Communications*. In review.  
+[Preprint DOI](https://doi.org/10.1101/2025.06.17.660201)
+:::
+:::
+
+## Published Papers
 
 ::: {.publication-list}
 ::: {.publication}
@@ -64,16 +95,6 @@ Arafeh-Dalmau N, **Brito-Morales I**, Schoeman DS, Possingham HP, Klein CJ, Rich
 :::
 :::
 
-## Preprints
-
-::: {.publication-list}
-::: {.publication}
-**Megafauna show pervasive yet distinct affinity to ocean fronts: the urgent need for adaptive conservation in a warming world.**  
-**Isaac Brito-Morales**, Boris Dewitte, Floriane Sudre, Christoph A. Rohner, Elliott L. Hazen, Kylie L. Scales, Matthieu Le Corre, Audrey Jaeger, Sophie Laran, Olivier Bousquet, Ana M. M. Sequeira, Tammy E. Davies, Daniel C. Dunn, Ronel Nel, Lee Hannah, Vincent Rossi. *Nature Communications*. In review.  
-[Preprint DOI](https://doi.org/10.1101/2025.06.17.660201)
-:::
-:::
-
 ## Highly Cited Work
 
 ::: {.publication-list}
@@ -103,11 +124,6 @@ Under construction.
 ## In Preparation
 
 ::: {.publication-list}
-::: {.publication}
-**Static tools in a dynamic ocean: why marine protection must evolve to survive climate change.**  
-**Isaac Brito-Morales**, Lee Hannah. In preparation.
-:::
-
 ::: {.publication}
 **30x30 for Climate Change: One if by Land, Two if by Sea.**  
 Lee Hannah, Jennifer Sunday, **Isaac Brito-Morales**, Jessica Couture, Juliano Palacios-Abrantes, Patrick Roehrdanz, Pablo Marquet, William Cheung. In preparation.
