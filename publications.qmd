@@ -1,6 +1,5 @@
 ---
 title: "Publications"
-description: "Selected and recent publications by Dr Isaac Brito-Morales."
 toc: true
 ---
 
