@@ -1,7 +1,7 @@
 ---
 title: "How I Built an Ocean Climate Downscaling Pipeline"
-subtitle: "From raw CESM, GLORYS, and ESGF files to conservation-ready marine layers"
-description: "A narrative overview of an HPC workflow for harmonizing, downscaling, and exporting ocean climate products for conservation science."
+subtitle: "From coarse ocean projections to high-resolution 3D marine data layers"
+description: "A workflow for transforming coarse-resolution future ocean projections into high-resolution 3D marine data layers for species distribution models, climate exposure analyses, and conservation planning."
 date: "2026-05-03"
 categories: [climate change, oceanography, downscaling, reproducible workflows, HPC]
 image: ../../content/images/noaa-earth-2026-04-14.jpg

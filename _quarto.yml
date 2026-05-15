@@ -6,6 +6,9 @@ website:
   title: "Dr Isaac Brito-Morales"
   site-url: "https://isaakbm.github.io"
   description: "Marine ecologist and conservation scientist working on climate change, biodiversity, and reproducible environmental data science."
+  open-graph: true
+  twitter-card:
+    card-style: summary_large_image
   favicon: content/images/isaac-brito-morales_v02.jpg
   navbar:
     title: "Dr Isaac Brito-Morales"
