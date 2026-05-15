@@ -220,6 +220,12 @@ body:has(.hero) .page-columns .content {
   margin: 0 auto;
 }
 
+.feature-grid {
+  max-width: 1400px;
+  grid-template-columns: repeat(3, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
 .feature-card,
 .project-card,
 .contact-card {
@@ -236,9 +242,15 @@ body:has(.hero) .page-columns .content {
   display: block;
   width: 100%;
   aspect-ratio: 16 / 10;
-  object-fit: cover;
+  object-fit: contain;
+  background: var(--mist);
   border-radius: 8px;
   margin: 0 0 0.75rem;
+}
+
+.feature-card:nth-child(2) .feature-image,
+.feature-card:nth-child(3) .feature-image {
+  object-fit: cover;
 }
 
 .image-credit {

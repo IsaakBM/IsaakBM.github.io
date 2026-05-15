@@ -76,13 +76,15 @@ Transparent workflows, reusable code, and teaching-friendly analysis.
 ::: {.feature-card}
 ### New Paper on Marine Climate Refugia
 
+![](content/images/marine-climate-refugia-figure.png){.feature-image fig-alt="Illustration of marine climate refugia showing meteorological, oceanographic, biological, depth, and geological processes."}
+
 As the world works toward protecting 30% of the ocean by 2030, a central question remains: which places will still support biodiversity as climate change accelerates? Our new paper in *Trends in Ecology & Evolution* reviews how marine climate refugia can help guide more climate-smart ocean conservation.
 
 [Read the paper](https://www.sciencedirect.com/science/article/pii/S0169534726000807)
 :::
 
 ::: {.feature-card}
-### Useful Projects
+### Current Projects
 
 ![](content/images/whale-shark-chris-rohner.jpg){.feature-image fig-alt="Whale shark swimming underwater. Photo by Chris Rohner."}
 
@@ -100,9 +102,9 @@ Building 3D species distribution models and climate-data workflows to assess how
 
 ![](content/images/noaa-earth-2026-04-14.jpg){.feature-image fig-alt="NOAA satellite view of Earth over the Pacific Ocean on April 14, 2026."}
 
-Write short posts on methods, R workflows, conservation science, career notes, and things you wish someone had explained earlier.
+**Ocean Climate Downscaling:** read a blog I made about building a workflow to transform coarse-resolution future ocean projections into high-resolution 3D marine data layers for species distribution models, climate exposure analyses, and conservation planning.
 
-[Read the blog](posts.qmd)
+[Read the post](posts/ocean-climate-downscaling-pipeline/)
 :::
 :::
 :::
