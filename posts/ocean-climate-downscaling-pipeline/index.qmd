@@ -4,7 +4,8 @@ subtitle: "From raw CESM, GLORYS, and ESGF files to conservation-ready marine la
 description: "A narrative overview of an HPC workflow for harmonizing, downscaling, and exporting ocean climate products for conservation science."
 date: "2026-05-03"
 categories: [climate change, oceanography, downscaling, reproducible workflows, HPC]
-image: ../../content/images/isaac-brito-morales_v02.jpg
+image: ../../content/images/noaa-earth-2026-04-14.jpg
+image-alt: "NOAA satellite view of Earth over the Pacific Ocean on April 14, 2026."
 ---
 
 Raw ocean climate data are powerful, but they rarely arrive in the shape needed for conservation science.
