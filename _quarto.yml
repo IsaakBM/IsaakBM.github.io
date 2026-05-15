@@ -56,6 +56,25 @@ format:
     page-layout: article
     anchor-sections: true
     smooth-scroll: true
+    include-after-body:
+      text: |
+        <script>
+        document.addEventListener("click", async (event) => {
+          const shareLink = event.target.closest(".share-post");
+          if (!shareLink) return;
+
+          const shareData = {
+            title: shareLink.dataset.shareTitle || document.title,
+            text: shareLink.dataset.shareText || "",
+            url: shareLink.href
+          };
+
+          if (navigator.share) {
+            event.preventDefault();
+            await navigator.share(shareData);
+          }
+        });
+        </script>
 
 execute:
   freeze: auto

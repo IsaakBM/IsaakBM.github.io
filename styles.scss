@@ -329,6 +329,11 @@ body:has(.hero) .page-columns .content {
   color: var(--muted);
 }
 
+.feature-card p:has(.share-post) {
+  margin-top: -0.7rem;
+  font-size: 0.88rem;
+}
+
 .timeline {
   display: grid;
   gap: 1rem;
