@@ -256,7 +256,8 @@ body:has(.hero) .page-columns .content {
   color: var(--muted);
   font-size: 0.78rem;
   line-height: 1.25;
-  margin: -0.35rem 0 0.9rem;
+  min-height: 1.1rem;
+  margin: -0.35rem 0 1.15rem;
 }
 
 .feature-card::before,
@@ -276,6 +277,12 @@ body:has(.hero) .page-columns .content {
 .project-card h2,
 .contact-card h2 {
   font-size: 1.2rem;
+}
+
+.feature-card h3 {
+  min-height: 3rem;
+  display: flex;
+  align-items: flex-end;
 }
 
 .feature-card:nth-child(2)::before,

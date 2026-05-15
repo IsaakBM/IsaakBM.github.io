@@ -78,6 +78,10 @@ Transparent workflows, reusable code, and teaching-friendly analysis.
 
 ![](content/images/marine-climate-refugia-figure.png){.feature-image fig-alt="Illustration of marine climate refugia showing meteorological, oceanographic, biological, depth, and geological processes."}
 
+::: {.image-credit}
+Figure: Trends in Ecology & Evolution
+:::
+
 As the world works toward protecting 30% of the ocean by 2030, a central question remains: which places will still support biodiversity as climate change accelerates? Our new paper in *Trends in Ecology & Evolution* reviews how marine climate refugia can help guide more climate-smart ocean conservation.
 
 [Read the paper](https://www.sciencedirect.com/science/article/pii/S0169534726000807)
@@ -101,6 +105,10 @@ Photo: Chris Rohner
 ### Notes and Blog
 
 ![](content/images/noaa-earth-2026-04-14.jpg){.feature-image fig-alt="NOAA satellite view of Earth over the Pacific Ocean on April 14, 2026."}
+
+::: {.image-credit}
+Image: NOAA NESDIS/STAR
+:::
 
 **Ocean Climate Downscaling:** read a blog I made about building a workflow to transform coarse-resolution future ocean projections into high-resolution 3D marine data layers for species distribution models, climate exposure analyses, and conservation planning.
 
