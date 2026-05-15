@@ -113,8 +113,6 @@ Image: NOAA NESDIS/STAR
 **Ocean Climate Downscaling:** read a blog I made about building a workflow to transform coarse-resolution future ocean projections into high-resolution 3D marine data layers for species distribution models, climate exposure analyses, and conservation planning.
 
 [Read the post](posts/ocean-climate-downscaling-pipeline/)
-
-[Share post](https://isaakbm.github.io/posts/ocean-climate-downscaling-pipeline/){.share-post data-share-title="How I Built an Ocean Climate Downscaling Pipeline" data-share-text="A workflow for transforming coarse-resolution future ocean projections into high-resolution 3D marine data layers for species distribution models, climate exposure analyses, and conservation planning."}
 :::
 :::
 :::
