@@ -104,19 +104,19 @@ Write short posts on methods, R workflows, conservation science, career notes, a
 
 ::: {.timeline}
 ::: {.timeline-item}
-**Senior Associate Scientist, Conservation International**
+**Senior Associate Scientist, [Conservation International](https://www.conservation.org/home)**
 
 Leading applied research on marine biodiversity, ocean fronts, climate change, and conservation planning.
 :::
 
 ::: {.timeline-item}
-**Research Associate, UC Santa Barbara Marine Science Institute**
+**Research Associate, [UC Santa Barbara Marine Science Institute](https://msi.ucsb.edu/)**
 
 Collaborating on marine science, conservation, and global environmental data analysis.
 :::
 
 ::: {.timeline-item}
-**PhD, The University of Queensland**
+**PhD, [The University of Queensland](https://www.uq.edu.au/)**
 
 Biological sciences, climate change, and conservation.
 :::
