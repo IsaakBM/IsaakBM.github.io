@@ -84,13 +84,21 @@ As the world works toward protecting 30% of the ocean by 2030, a central questio
 ::: {.feature-card}
 ### Useful Projects
 
-Showcase workshops, datasets, software, maps, notebooks, and decision-support tools that people can actually reuse.
+![](content/images/whale-shark-chris-rohner.jpg){.feature-image fig-alt="Whale shark swimming underwater. Photo by Chris Rohner."}
 
-[Browse projects](projects.qmd)
+::: {.image-credit}
+Photo: Chris Rohner
+:::
+
+Building 3D species distribution models and climate-data workflows to assess how climate change may reshape migratory marine megafauna habitat across the Southeast Pacific.
+
+[Visit project](https://savethebluefive.net/)
 :::
 
 ::: {.feature-card}
 ### Notes and Blog
+
+![](content/images/noaa-earth-2026-04-14.jpg){.feature-image fig-alt="NOAA satellite view of Earth over the Pacific Ocean on April 14, 2026."}
 
 Write short posts on methods, R workflows, conservation science, career notes, and things you wish someone had explained earlier.
 

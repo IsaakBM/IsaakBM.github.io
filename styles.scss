@@ -227,6 +227,27 @@ body:has(.hero) .page-columns .content {
   position: relative;
 }
 
+.feature-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 0 0 0.75rem;
+}
+
+.image-credit {
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.25;
+  margin: -0.35rem 0 0.9rem;
+}
+
 .feature-card::before,
 .project-card::before,
 .contact-card::before,
