@@ -401,9 +401,12 @@ body:has(.hero) .page-columns .content {
 .timeline {
   display: grid;
   gap: 1rem;
-  max-width: none;
-  margin-left: 0;
-  margin-right: 0;
+}
+
+#current-snapshot > h2 {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .timeline-item {
