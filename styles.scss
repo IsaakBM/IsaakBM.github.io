@@ -392,7 +392,7 @@ main.content {
   padding-bottom: 4rem;
 }
 
-body:not(.floating) main.content > section,
+body:not(.floating) main.content > section:not(.content-band),
 body:not(.floating) main.content > p,
 body:not(.floating) main.content > ul,
 body:not(.floating) main.content > div:not(.hero):not(.content-band) {
