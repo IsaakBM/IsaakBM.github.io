@@ -74,11 +74,11 @@ Transparent workflows, reusable code, and teaching-friendly analysis.
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### Recent Publications
+### New Paper on Marine Climate Refugia
 
-Add your newest papers, preprints, and plain-language summaries so search committees can quickly see your current research arc.
+As the world works toward protecting 30% of the ocean by 2030, a central question remains: which places will still support biodiversity as climate change accelerates? Our new paper in *Trends in Ecology & Evolution* reviews how marine climate refugia can help guide more climate-smart ocean conservation.
 
-[Update publications](publications.qmd)
+[Read the paper](https://www.sciencedirect.com/science/article/pii/S0169534726000807)
 :::
 
 ::: {.feature-card}
