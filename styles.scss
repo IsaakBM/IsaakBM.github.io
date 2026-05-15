@@ -242,15 +242,14 @@ body:has(.hero) .page-columns .content {
   display: block;
   width: 100%;
   aspect-ratio: 16 / 10;
-  object-fit: contain;
-  background: var(--mist);
+  object-fit: cover;
+  object-position: center;
   border-radius: 8px;
   margin: 0 0 0.75rem;
 }
 
-.feature-card:nth-child(2) .feature-image,
-.feature-card:nth-child(3) .feature-image {
-  object-fit: cover;
+.feature-card:nth-child(1) .feature-image {
+  object-position: center 28%;
 }
 
 .image-credit {
