@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-53d96bb4342333775a20fdd3372e1a85.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-5e9a38fe2118a91cfa04ba362e5bc81b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -643,6 +643,48 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>
+document.addEventListener("click", async (event) => {
+  const toggle = event.target.closest(".share-menu-toggle");
+  const nativeButton = event.target.closest("[data-share-native]");
+  const copyButton = event.target.closest("[data-copy-link]");
+
+  document.querySelectorAll(".share-menu.is-open").forEach((menu) => {
+    if (!menu.contains(event.target)) {
+      menu.classList.remove("is-open");
+      menu.querySelector(".share-menu-toggle")?.setAttribute("aria-expanded", "false");
+    }
+  });
+
+  if (toggle) {
+    const menu = toggle.closest(".share-menu");
+    const isOpen = menu.classList.toggle("is-open");
+    toggle.setAttribute("aria-expanded", String(isOpen));
+    return;
+  }
+
+  const menu = event.target.closest(".share-menu");
+  if (!menu) return;
+
+  const shareData = {
+    title: menu.dataset.shareTitle || document.title,
+    text: menu.dataset.shareText || "",
+    url: menu.dataset.shareUrl || window.location.href
+  };
+
+  if (nativeButton && navigator.share) {
+    await navigator.share(shareData);
+  }
+
+  if (copyButton && navigator.clipboard) {
+    await navigator.clipboard.writeText(shareData.url);
+    copyButton.textContent = "Copied";
+    setTimeout(() => {
+      copyButton.textContent = "Copy link";
+    }, 1600);
+  }
+});
+</script>
 
 
 

@@ -113,6 +113,23 @@ Image: NOAA NESDIS/STAR
 **Ocean Climate Downscaling:** read a blog I made about building a workflow to transform coarse-resolution future ocean projections into high-resolution 3D marine data layers for species distribution models, climate exposure analyses, and conservation planning.
 
 [Read the post](posts/ocean-climate-downscaling-pipeline/)
+
+::: {.share-menu data-share-url="https://isaakbm.github.io/posts/ocean-climate-downscaling-pipeline/" data-share-title="How I Built an Ocean Climate Downscaling Pipeline" data-share-text="Ocean Climate Downscaling: a workflow for transforming coarse-resolution future ocean projections into high-resolution 3D marine data layers for species distribution models, climate exposure analyses, and conservation planning."}
+<button class="share-menu-toggle" type="button" aria-expanded="false">
+  <i class="bi bi-share" aria-hidden="true"></i>
+  <span>Share</span>
+</button>
+
+::: {.share-menu-panel}
+[LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fisaakbm.github.io%2Fposts%2Focean-climate-downscaling-pipeline%2F){target="_blank" rel="noopener"}
+
+[Bluesky](https://bsky.app/intent/compose?text=Ocean%20Climate%20Downscaling%3A%20https%3A%2F%2Fisaakbm.github.io%2Fposts%2Focean-climate-downscaling-pipeline%2F){target="_blank" rel="noopener"}
+
+<button class="share-menu-action" type="button" data-share-native>Native share</button>
+
+<button class="share-menu-action" type="button" data-copy-link>Copy link</button>
+:::
+:::
 :::
 :::
 :::

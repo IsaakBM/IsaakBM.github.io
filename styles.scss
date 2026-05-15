@@ -329,6 +329,75 @@ body:has(.hero) .page-columns .content {
   color: var(--muted);
 }
 
+.share-menu {
+  position: relative;
+  width: max-content;
+  margin-top: -0.35rem;
+}
+
+.share-menu-toggle,
+.share-menu-action {
+  border: 0;
+  background: transparent;
+  color: var(--reef);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.share-menu-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.share-menu-toggle i {
+  font-size: 0.95rem;
+}
+
+.share-menu-panel {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 0.45rem);
+  z-index: 5;
+  min-width: 160px;
+  padding: 0.45rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 16px 36px rgba(23, 33, 31, 0.14);
+}
+
+.share-menu.is-open .share-menu-panel {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.share-menu-panel p {
+  margin: 0;
+}
+
+.share-menu-panel a,
+.share-menu-action {
+  display: block;
+  width: 100%;
+  padding: 0.38rem 0.45rem;
+  border-radius: 6px;
+  color: var(--ink);
+  text-decoration: none;
+  line-height: 1.2;
+}
+
+.share-menu-panel a:hover,
+.share-menu-action:hover {
+  background: var(--mist);
+  color: var(--reef);
+}
+
 .timeline {
   display: grid;
   gap: 1rem;

@@ -56,6 +56,50 @@ format:
     page-layout: article
     anchor-sections: true
     smooth-scroll: true
+    include-after-body:
+      text: |
+        <script>
+        document.addEventListener("click", async (event) => {
+          const toggle = event.target.closest(".share-menu-toggle");
+          const nativeButton = event.target.closest("[data-share-native]");
+          const copyButton = event.target.closest("[data-copy-link]");
+
+          document.querySelectorAll(".share-menu.is-open").forEach((menu) => {
+            if (!menu.contains(event.target)) {
+              menu.classList.remove("is-open");
+              menu.querySelector(".share-menu-toggle")?.setAttribute("aria-expanded", "false");
+            }
+          });
+
+          if (toggle) {
+            const menu = toggle.closest(".share-menu");
+            const isOpen = menu.classList.toggle("is-open");
+            toggle.setAttribute("aria-expanded", String(isOpen));
+            return;
+          }
+
+          const menu = event.target.closest(".share-menu");
+          if (!menu) return;
+
+          const shareData = {
+            title: menu.dataset.shareTitle || document.title,
+            text: menu.dataset.shareText || "",
+            url: menu.dataset.shareUrl || window.location.href
+          };
+
+          if (nativeButton && navigator.share) {
+            await navigator.share(shareData);
+          }
+
+          if (copyButton && navigator.clipboard) {
+            await navigator.clipboard.writeText(shareData.url);
+            copyButton.textContent = "Copied";
+            setTimeout(() => {
+              copyButton.textContent = "Copy link";
+            }, 1600);
+          }
+        });
+        </script>
 
 execute:
   freeze: auto
