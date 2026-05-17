@@ -32,7 +32,7 @@ Ian Omedes Bassat, Manuel Hidalgo, Carla Quiles-Pons, Jorge Garcia Molinos, **Is
 
 ::: {.publication}
 **Megafauna show pervasive yet distinct affinity to ocean fronts: the urgent need for adaptive conservation in a warming world.**  
-**Isaac Brito-Morales**, Boris Dewitte, Floriane Sudre, Christoph A. Rohner, Elliott L. Hazen, Kylie L. Scales, Matthieu Le Corre, Audrey Jaeger, Sophie Laran, Olivier Bousquet, Ana M. M. Sequeira, Tammy E. Davies, Daniel C. Dunn, Ronel Nel, Lee Hannah, Vincent Rossi. *Nature Communications*. In review.  
+**Isaac Brito-Morales**, Boris Dewitte, Floriane Sudre, Christoph A. Rohner, Elliott L. Hazen, Kylie L. Scales, Matthieu Le Corre, Audrey Jaeger, Sophie Laran, Olivier Bousquet, Ana M. M. Sequeira, Tammy E. Davies, Daniel C. Dunn, Ronel Nel, Lee Hannah, Vincent Rossi. *Commun. Biol.* In review.  
 [Preprint DOI](https://doi.org/10.1101/2025.06.17.660201)
 :::
 :::
