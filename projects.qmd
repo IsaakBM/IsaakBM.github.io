@@ -90,11 +90,3 @@ Introductory guide to using CDO for CMIP climate data manipulation, including re
 [GitHub](https://github.com/IsaakBM/CDO-climate-data-operators-)
 :::
 :::
-
-## Add Next
-
-- A page for each major project
-- Screenshots or maps
-- Reproducible notebooks
-- Links to GitHub repositories
-- Short "how to cite/use this" notes

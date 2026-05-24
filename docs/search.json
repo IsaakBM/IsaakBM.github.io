@@ -161,13 +161,6 @@
     "text": "Climate Data Operators Guide\nIntroductory guide to using CDO for CMIP climate data manipulation, including regridding, interpolation, batch processing, and summary operations on netCDF files.\nAudience: students and analysts working with gridded climate data.\nGitHub"
   },
   {
-    "objectID": "projects.html#add-next",
-    "href": "projects.html#add-next",
-    "title": "Projects",
-    "section": "Add Next",
-    "text": "Add Next\n\nA page for each major project\nScreenshots or maps\nReproducible notebooks\nLinks to GitHub repositories\nShort “how to cite/use this” notes"
-  },
-  {
     "objectID": "posts/ocean-climate-downscaling-pipeline/index.html",
     "href": "posts/ocean-climate-downscaling-pipeline/index.html",
     "title": "How I Built an Ocean Climate Downscaling Pipeline",
