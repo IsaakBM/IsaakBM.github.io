@@ -116,7 +116,49 @@
     "href": "projects.html#workshops-and-teaching",
     "title": "Projects",
     "section": "Workshops and Teaching",
-    "text": "Workshops and Teaching\nA home for slides, practicals, notebooks, and data examples from workshops or short courses.\nUseful for: teaching, mentoring, and professional visibility.\nAdd materials"
+    "text": "Workshops and Teaching\nHands-on teaching materials for climate change biology, marine megafauna, reproducible workflows, Git, GitHub, and environmental data processing.\nUseful for: students, collaborators, workshop participants, and people looking for reusable training material.\nSee materials"
+  },
+  {
+    "objectID": "projects.html#workshops-and-teaching-materials",
+    "href": "projects.html#workshops-and-teaching-materials",
+    "title": "Projects",
+    "section": "Workshops and Teaching Materials",
+    "text": "Workshops and Teaching Materials"
+  },
+  {
+    "objectID": "projects.html#climate-change-biology-hands-on-session",
+    "href": "projects.html#climate-change-biology-hands-on-session",
+    "title": "Projects",
+    "section": "Climate Change Biology Hands-on Session",
+    "text": "Climate Change Biology Hands-on Session\nCourse practicals for ESM 240 at the Bren School, focused on climate-smart marine conservation, CMIP6 climate data, R workflows, and applied climate change biology.\nAudience: master’s students in environmental science and management.\nGitHub | Course site"
+  },
+  {
+    "objectID": "projects.html#ocean-fronts-and-marine-megafauna-workshop",
+    "href": "projects.html#ocean-fronts-and-marine-megafauna-workshop",
+    "title": "Projects",
+    "section": "Ocean Fronts and Marine Megafauna Workshop",
+    "text": "Ocean Fronts and Marine Megafauna Workshop\nWorkshop eBook and practical material from the 2024 NACECC workshop in Halifax, with modules on setup, Git and GitHub, climate data, gridded rasters, ocean fronts, megafauna data, and CMIP6 models.\nAudience: marine conservation researchers and workshop participants.\nGitHub | Workshop eBook"
+  },
+  {
+    "objectID": "projects.html#megafauna-and-climate-change-workshop",
+    "href": "projects.html#megafauna-and-climate-change-workshop",
+    "title": "Projects",
+    "section": "Megafauna and Climate Change Workshop",
+    "text": "Megafauna and Climate Change Workshop\nTeaching repository for a marine megafauna and climate change workshop, collecting reusable scripts, examples, and practical material for climate-informed biodiversity work.\nAudience: researchers and students working with marine species, climate exposure, and reproducible analysis.\nGitHub"
+  },
+  {
+    "objectID": "projects.html#guide-to-climate-models-in-r",
+    "href": "projects.html#guide-to-climate-models-in-r",
+    "title": "Projects",
+    "section": "Guide to Climate Models in R",
+    "text": "Guide to Climate Models in R\nOlder but still useful teaching notes for working with climate model outputs in R, especially as historical context for climate-data workflows and student onboarding.\nAudience: learners getting started with climate model data in R.\nGitHub"
+  },
+  {
+    "objectID": "projects.html#climate-data-operators-guide",
+    "href": "projects.html#climate-data-operators-guide",
+    "title": "Projects",
+    "section": "Climate Data Operators Guide",
+    "text": "Climate Data Operators Guide\nIntroductory guide to using CDO for CMIP climate data manipulation, including regridding, interpolation, batch processing, and summary operations on netCDF files.\nAudience: students and analysts working with gridded climate data.\nGitHub"
   },
   {
     "objectID": "projects.html#add-next",

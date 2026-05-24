@@ -29,11 +29,65 @@ Starter material for transparent analysis, maps, species distribution workflows,
 ::: {.project-card}
 ## Workshops and Teaching
 
-A home for slides, practicals, notebooks, and data examples from workshops or short courses.
+Hands-on teaching materials for climate change biology, marine megafauna, reproducible workflows, Git, GitHub, and environmental data processing.
 
-**Useful for:** teaching, mentoring, and professional visibility.
+**Useful for:** students, collaborators, workshop participants, and people looking for reusable training material.
 
-[Add materials](#)
+[See materials](#workshops-and-teaching-materials)
+:::
+:::
+
+## Workshops and Teaching Materials
+
+::: {.project-grid}
+::: {.project-card}
+## Climate Change Biology Hands-on Session
+
+Course practicals for ESM 240 at the Bren School, focused on climate-smart marine conservation, CMIP6 climate data, R workflows, and applied climate change biology.
+
+**Audience:** master's students in environmental science and management.
+
+[GitHub](https://github.com/IsaakBM/ESM_240) | [Course site](https://isaakbm.github.io/ESM_240/)
+:::
+
+::: {.project-card}
+## Ocean Fronts and Marine Megafauna Workshop
+
+Workshop eBook and practical material from the 2024 NACECC workshop in Halifax, with modules on setup, Git and GitHub, climate data, gridded rasters, ocean fronts, megafauna data, and CMIP6 models.
+
+**Audience:** marine conservation researchers and workshop participants.
+
+[GitHub](https://github.com/IsaakBM/NACECC_workshop_2024) | [Workshop eBook](https://isaakbm.github.io/NACECC_workshop_2024/)
+:::
+
+::: {.project-card}
+## Megafauna and Climate Change Workshop
+
+Teaching repository for a marine megafauna and climate change workshop, collecting reusable scripts, examples, and practical material for climate-informed biodiversity work.
+
+**Audience:** researchers and students working with marine species, climate exposure, and reproducible analysis.
+
+[GitHub](https://github.com/IsaakBM/megafauna_CC_workshop2025)
+:::
+
+::: {.project-card}
+## Guide to Climate Models in R
+
+Older but still useful teaching notes for working with climate model outputs in R, especially as historical context for climate-data workflows and student onboarding.
+
+**Audience:** learners getting started with climate model data in R.
+
+[GitHub](https://github.com/IsaakBM/Guide_ClimateModelsR)
+:::
+
+::: {.project-card}
+## Climate Data Operators Guide
+
+Introductory guide to using CDO for CMIP climate data manipulation, including regridding, interpolation, batch processing, and summary operations on netCDF files.
+
+**Audience:** students and analysts working with gridded climate data.
+
+[GitHub](https://github.com/IsaakBM/CDO-climate-data-operators-)
 :::
 :::
 
