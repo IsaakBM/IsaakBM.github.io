@@ -21,13 +21,18 @@ Manuscripts available upon request unless a preprint is linked.
 
 ::: {.publication-list}
 ::: {.publication}
-**Static tools in a dynamic ocean: why marine protection must evolve to survive climate change.**  
-**Isaac Brito-Morales**, Nur Arafeh-Dalmau, Yulia Egorova, Guillermo Ortuno Crespo, Lee Hannah. In review.
+**Evolving area-based conservation for a dynamic ocean.**  
+**Isaac Brito-Morales**, Yulia Egorova, Lee Hannah, Guillermo Ortuño Crespo, Nur Arafeh-Dalmau. In review.
 :::
 
 ::: {.publication}
 **Multifaceted thermal exposure reveals climate refugia shortfalls in the Mediterranean marine protected areas.**  
 Ian Omedes Bassat, Manuel Hidalgo, Carla Quiles-Pons, Jorge Garcia Molinos, **Isaac Brito-Morales**, Nur Arafeh-Dalmau, Javier Soto-Navarro, Marina Sanz-Martin. In review.
+:::
+
+::: {.publication}
+**Ocean Fronts Concentrate Fishing Pressure on Threatened Megafauna.**  
+Lee Hannah, Sarayu Ramnath, Kylie L. Scales, Vincent Rossi, Ana Sequeira, Tammy E. Davies, Elliott Hazen, Daniel Dunn, Peter I. Miller, Sophie Laran, Valeria Falabella, Lenaya-Aiden Gonzales, **Isaac Brito-Morales**. In review. Prepared for submission to *Proceedings of the National Academy of Sciences (PNAS)*.
 :::
 
 ::: {.publication}
@@ -123,9 +128,6 @@ Under construction.
 
 ## In Preparation
 
-::: {.publication-list}
-::: {.publication}
-**Ocean Fronts Concentrate Fishing Pressure on Threatened Megafauna.**  
-Lee Hannah, Sarayu Ramnath, Kylie L. Scales, Vincent Rossi, Ana Sequeira, Tammy E. Davies, Elliott Hazen, Daniel Dunn, Peter I. Miller, Sophie Laran, Valeria Falabella, Lenaya Aiden Gonzales, **Isaac Brito-Morales**. In preparation.
-:::
+::: {.construction}
+Empty for now.
 :::
