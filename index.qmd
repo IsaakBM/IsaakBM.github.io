@@ -28,7 +28,7 @@ I study how climate change reshapes biodiversity in the ocean, and I build repro
 
 ::: {.hero-actions}
 [View publications](publications.qmd){.btn .btn-primary}
-[Download CV](content/pdf/CV_academic_v02.pdf){.btn .btn-outline}
+[Download CV](content/pdf/isaac_brito_morales_academic_cv.pdf){.btn .btn-outline}
 :::
 :::
 

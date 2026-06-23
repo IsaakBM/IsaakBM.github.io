@@ -23,7 +23,7 @@ If something here resonates, I would be glad to hear from you. I am always happy
 ::: {.contact-card}
 ## Materials
 
-[Download CV](content/pdf/CV_academic_v02.pdf)  
+[Download CV](content/pdf/isaac_brito_morales_academic_cv.pdf)  
 [Browse publications](publications.qmd)  
 [Explore projects](projects.qmd)
 :::

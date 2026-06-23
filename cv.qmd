@@ -3,7 +3,7 @@ title: "CV"
 description: "Curriculum vitae and professional profile."
 ---
 
-[Download the current PDF CV](content/pdf/CV_academic_v02.pdf){.btn .btn-primary}
+[Download the current PDF CV](content/pdf/isaac_brito_morales_academic_cv.pdf){.btn .btn-primary}
 
 ## Profile
 
