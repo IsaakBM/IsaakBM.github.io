@@ -11,6 +11,8 @@ from PIL import Image, ImageFilter
 
 
 PAGE_ONE_REDACTIONS = [
+    # Hide the phone number in the contact line.
+    (332, 94, 416, 110),
     # Hide the Ph.D. Grant / ANID entry in Grants and Fellowships.
     # Coordinates are PDF points measured from the top-left of an A4 page.
     (36, 770, 560, 806),
