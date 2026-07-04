@@ -10,13 +10,22 @@ from pathlib import Path
 from PIL import Image, ImageFilter
 
 
-PAGE_ONE_REDACTIONS = [
-    # Hide the phone number in the contact line.
-    (332, 94, 416, 110),
-    # Hide the Ph.D. Grant / ANID entry in Grants and Fellowships.
-    # Coordinates are PDF points measured from the top-left of an A4 page.
-    (36, 770, 560, 806),
-]
+REDACTIONS_BY_PAGE = {
+    0: [
+        # Hide the phone number in the contact line.
+        (332, 94, 416, 110),
+        # Hide the Ph.D. Grant / ANID entry in Grants and Fellowships.
+        (36, 770, 560, 806),
+    ],
+    3: [
+        # Hide mentoring details to protect mentee privacy.
+        (36, 436, 560, 755),
+    ],
+    4: [
+        # Hide referee names and email addresses.
+        (36, 24, 330, 104),
+    ],
+}
 
 
 def render_pdf(input_pdf: Path, output_prefix: Path, dpi: int) -> None:
@@ -58,9 +67,8 @@ def build_public_cv(input_pdf: Path, output_pdf: Path, dpi: int) -> None:
         pages: list[Image.Image] = []
         for index, page_path in enumerate(page_paths):
             image = Image.open(page_path).convert("RGB")
-            if index == 0:
-                for box in PAGE_ONE_REDACTIONS:
-                    blur_box(image, box, dpi)
+            for box in REDACTIONS_BY_PAGE.get(index, []):
+                blur_box(image, box, dpi)
             pages.append(image)
 
         output_pdf.parent.mkdir(parents=True, exist_ok=True)
