@@ -55,13 +55,13 @@ body:has(.hero) .page-columns .content {
 }
 
 .hero {
-  min-height: 70vh;
+  min-height: 58vh;
   display: grid;
   grid-template-columns: minmax(0, 720px) minmax(280px, 360px);
   align-items: center;
   justify-content: center;
   gap: clamp(2rem, 3vw, 3.5rem);
-  padding: clamp(3rem, 5vw, 5.25rem) clamp(1.25rem, 5vw, 6rem);
+  padding: clamp(2.5rem, 4vw, 4.5rem) clamp(1.25rem, 5vw, 6rem);
   background:
     linear-gradient(115deg, rgba(238, 245, 242, 0.96), rgba(255, 255, 255, 0.9) 45%, rgba(251, 243, 234, 0.9)),
     radial-gradient(circle at 95% 18%, rgba(197, 85, 63, 0.16), transparent 28%),
@@ -102,7 +102,7 @@ body:has(.hero) .page-columns .content {
 .hero-copy p {
   color: var(--muted);
   font-size: clamp(1.05rem, 1.5vw, 1.25rem);
-  max-width: 700px;
+  max-width: 760px;
 }
 
 .hero-actions {
@@ -110,6 +110,18 @@ body:has(.hero) .page-columns .content {
   flex-wrap: wrap;
   gap: 0.85rem;
   margin-top: 2rem;
+}
+
+.profile-links {
+  margin-top: 1.25rem;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.profile-links a {
+  color: var(--reef);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .btn {
@@ -152,6 +164,17 @@ body:has(.hero) .page-columns .content {
   padding: clamp(3.5rem, 7vw, 6rem) clamp(1.25rem, 5vw, 6rem);
 }
 
+.snapshot-band,
+.program-band {
+  padding-top: clamp(2rem, 4vw, 3rem);
+  padding-bottom: clamp(2rem, 4vw, 3rem);
+}
+
+.compact-band {
+  padding-top: clamp(2.5rem, 5vw, 4rem);
+  padding-bottom: clamp(2.5rem, 5vw, 4rem);
+}
+
 .content-band.subtle {
   position: relative;
   background: transparent;
@@ -190,12 +213,26 @@ body:has(.hero) .page-columns .content {
   margin: 0 auto;
 }
 
+.profile-grid {
+  align-items: start;
+}
+
 .intro-copy p {
   color: var(--muted);
   font-size: 1.08rem;
 }
 
+.intro-copy li,
+.content-band > p,
+.project-card li {
+  color: var(--muted);
+}
+
 .stat-panel,
+.impact-grid,
+.snapshot-grid,
+.direction-grid,
+.teaching-grid,
 .feature-grid,
 .project-grid,
 .contact-grid {
@@ -205,6 +242,10 @@ body:has(.hero) .page-columns .content {
 }
 
 .stat,
+.impact-item,
+.snapshot-item,
+.direction-card,
+.teaching-card,
 .feature-card,
 .project-card,
 .contact-card,
@@ -214,6 +255,122 @@ body:has(.hero) .page-columns .content {
   border-radius: 8px;
   padding: 1.25rem;
   box-shadow: 0 10px 24px rgba(23, 33, 31, 0.04);
+}
+
+.snapshot-band > h2,
+.program-band > h2,
+.snapshot-grid,
+.research-tags,
+.content-band > p,
+.direction-list {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.program-band > p {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--ink);
+  font-size: clamp(1.08rem, 1.45vw, 1.25rem);
+  line-height: 1.65;
+}
+
+.snapshot-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.proof-cards {
+  margin-top: 1.5rem;
+}
+
+.snapshot-item {
+  min-height: 118px;
+  box-shadow: none;
+  border-top: 4px solid var(--reef);
+}
+
+.snapshot-item:nth-child(2) {
+  border-top-color: var(--coral);
+}
+
+.snapshot-item:nth-child(3) {
+  border-top-color: var(--gold);
+}
+
+.snapshot-item:nth-child(4) {
+  border-top-color: var(--kelp);
+}
+
+.snapshot-item strong {
+  color: var(--kelp);
+  font-size: 1.08rem;
+}
+
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 1rem;
+}
+
+.compact-tags {
+  max-width: 920px;
+  justify-content: center;
+}
+
+.research-tags code {
+  color: var(--kelp);
+  background: var(--mist);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.28rem 0.65rem;
+  font-size: 0.82rem;
+  white-space: nowrap;
+}
+
+.impact-panel {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1.35rem;
+  box-shadow: 0 10px 24px rgba(23, 33, 31, 0.04);
+}
+
+.impact-panel h2 {
+  margin-top: 0;
+}
+
+.impact-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.impact-item {
+  min-height: 130px;
+  box-shadow: none;
+  background: var(--mist);
+}
+
+.impact-item:nth-child(2) {
+  background: var(--warm);
+}
+
+.impact-item:nth-child(3) {
+  background: var(--gold-soft);
+}
+
+.impact-item:nth-child(4) {
+  background: var(--reef-soft);
+}
+
+.impact-item:nth-child(5) {
+  background: var(--paper);
+}
+
+.impact-item strong {
+  color: var(--kelp);
+  font-size: 1.2rem;
 }
 
 .stat {
@@ -238,10 +395,43 @@ body:has(.hero) .page-columns .content {
 .feature-grid,
 .project-grid,
 .contact-grid,
+.direction-grid,
+.compact-info-grid,
+.teaching-grid,
 .publication-list,
 .timeline {
   max-width: 1180px;
   margin: 0 auto;
+}
+
+.selected-publications {
+  margin-bottom: 1.5rem;
+}
+
+.selected-publications {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.selected-publications .publication {
+  display: flex;
+  flex-direction: column;
+}
+
+.selected-publications .publication h3 {
+  font-size: 1.05rem;
+}
+
+.selected-publications .publication p {
+  font-size: 0.95rem;
+}
+
+.text-link {
+  display: inline-block;
+  margin-top: 1.1rem;
+  font-weight: 750;
+  color: var(--reef);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .feature-grid {
@@ -252,9 +442,59 @@ body:has(.hero) .page-columns .content {
 
 .feature-card,
 .project-card,
-.contact-card {
+.contact-card,
+.direction-card,
+.info-panel,
+.teaching-card {
   min-height: 220px;
   position: relative;
+}
+
+.compact-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.compact-info-grid.three-up {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.info-panel {
+  min-height: 0;
+  padding: 1.15rem 1.2rem;
+}
+
+.info-panel::before {
+  content: "";
+  display: block;
+  width: 44px;
+  height: 4px;
+  margin-bottom: 0.85rem;
+  background: var(--coral);
+  border-radius: 999px;
+}
+
+.info-panel:nth-child(2)::before {
+  background: var(--gold);
+}
+
+.info-panel:nth-child(3)::before {
+  background: var(--reef);
+}
+
+.info-panel h3 {
+  font-size: 1.05rem;
+  margin-top: 0;
+}
+
+.info-panel p {
+  color: var(--muted);
+  margin-bottom: 0;
+}
+
+.compact-projects .project-card {
+  min-height: 0;
 }
 
 .feature-card {
@@ -287,6 +527,8 @@ body:has(.hero) .page-columns .content {
 .feature-card::before,
 .project-card::before,
 .contact-card::before,
+.direction-card::before,
+.teaching-card::before,
 .publication::before {
   content: "";
   display: block;
@@ -299,7 +541,9 @@ body:has(.hero) .page-columns .content {
 
 .feature-card h3,
 .project-card h2,
-.contact-card h2 {
+.contact-card h2,
+.direction-card h3,
+.teaching-card h3 {
   font-size: 1.2rem;
 }
 
@@ -311,19 +555,25 @@ body:has(.hero) .page-columns .content {
 
 .feature-card:nth-child(2)::before,
 .project-card:nth-child(2)::before,
-.contact-card:nth-child(2)::before {
+.contact-card:nth-child(2)::before,
+.direction-card:nth-child(2)::before,
+.teaching-card:nth-child(2)::before {
   background: var(--gold);
 }
 
 .feature-card:nth-child(3)::before,
 .project-card:nth-child(3)::before,
-.contact-card:nth-child(3)::before {
+.contact-card:nth-child(3)::before,
+.direction-card:nth-child(3)::before,
+.teaching-card:nth-child(3)::before {
   background: var(--reef);
 }
 
 .feature-card p,
 .project-card p,
 .contact-card p,
+.direction-card p,
+.teaching-card p,
 .publication p,
 .timeline p {
   color: var(--muted);
@@ -435,8 +685,61 @@ body:has(.hero) .page-columns .content {
   border-left: 4px solid var(--reef);
 }
 
+.publication h3 {
+  margin-top: 0.25rem;
+  font-size: 1.15rem;
+}
+
 .publication::before {
   display: none;
+}
+
+.pub-meta {
+  color: var(--kelp);
+  font-size: 0.86rem;
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+}
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.85rem 0;
+}
+
+.tag-row code {
+  color: var(--kelp);
+  background: var(--mist);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.22rem 0.55rem;
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.direction-list {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.direction-list p {
+  margin: 0;
+  padding: 1rem 1.15rem;
+  border-left: 4px solid var(--reef);
+  background: var(--paper);
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(23, 33, 31, 0.04);
+}
+
+.direction-list p:nth-child(2) {
+  border-left-color: var(--coral);
+}
+
+.direction-list p:nth-child(3) {
+  border-left-color: var(--gold);
 }
 
 .publication:nth-child(3n + 1) {
@@ -485,6 +788,11 @@ body:not(.floating) main.content > div:not(.hero):not(.content-band) {
   .hero,
   .content-grid,
   .stat-panel,
+  .impact-grid,
+  .snapshot-grid,
+  .direction-grid,
+  .compact-info-grid,
+  .teaching-grid,
   .feature-grid,
   .project-grid,
   .contact-grid {

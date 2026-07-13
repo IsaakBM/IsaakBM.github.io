@@ -2,7 +2,7 @@
 title: "Contact"
 ---
 
-If something here resonates, I would be glad to hear from you. I am always happy to connect around marine conservation, climate-change science, reproducible data workflows, workshops, collaborations, or opportunities where my experience could be useful.
+I am glad to connect about marine climate-change ecology, biodiversity redistribution, conservation planning, spatial modelling, reproducible data workflows, teaching, workshops, collaborations, and faculty or research opportunities.
 
 ::: {.contact-grid}
 ::: {.contact-card}
@@ -14,10 +14,11 @@ If something here resonates, I would be glad to hear from you. I am always happy
 ::: {.contact-card}
 ## Profiles
 
+[Google Scholar](https://scholar.google.com.au/citations?hl=en&view_op=list_works&gmla=AJsN-F5xl24DTIsGvaLU0eC3m1MDcho9MYiREe36Fg2N9Gi43a7GrLAl9R9cx9tlP3Ojy3Pbw3vQR5GjWGaxFt8PX-UPtBPkYpyCpTKp2huz5V-G2VpbMQ0&user=o0-V01oAAAAJ#d=gsc_md_cod&t=1777789187183&u=%2Fcitations%3Fview_op%3Dlist_colleagues%26hl%3Den%26json%3D%26user%3Do0-V01oAAAAJ%23t%3Dgsc_cod_lc)  
+[ORCID](https://orcid.org/0000-0003-0073-2431)  
 [GitHub](https://github.com/IsaakBM)  
 [LinkedIn](https://www.linkedin.com/in/isaakbm/)  
-[ResearchGate](https://www.researchgate.net/profile/Isaac-Brito-Morales)  
-[Google Scholar](https://scholar.google.com.au/citations?hl=en&view_op=list_works&gmla=AJsN-F5xl24DTIsGvaLU0eC3m1MDcho9MYiREe36Fg2N9Gi43a7GrLAl9R9cx9tlP3Ojy3Pbw3vQR5GjWGaxFt8PX-UPtBPkYpyCpTKp2huz5V-G2VpbMQ0&user=o0-V01oAAAAJ#d=gsc_md_cod&t=1777789187183&u=%2Fcitations%3Fview_op%3Dlist_colleagues%26hl%3Den%26json%3D%26user%3Do0-V01oAAAAJ%23t%3Dgsc_cod_lc)
+[ResearchGate](https://www.researchgate.net/profile/Isaac-Brito-Morales)
 :::
 
 ::: {.contact-card}
@@ -25,6 +26,7 @@ If something here resonates, I would be glad to hear from you. I am always happy
 
 [Download CV](content/pdf/isaac_brito_morales_academic_cv.pdf)  
 [Browse publications](publications.qmd)  
-[Explore projects](projects.qmd)
+[Explore projects](projects.qmd)  
+[Teaching materials](projects.qmd#workshops-and-teaching-materials)
 :::
 :::

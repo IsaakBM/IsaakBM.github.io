@@ -11,14 +11,21 @@
     "href": "cv.html#profile",
     "title": "CV",
     "section": "Profile",
-    "text": "Profile\nMarine ecologist and conservation scientist working on climate change, biodiversity, species redistributions, and reproducible environmental data science."
+    "text": "Profile\nMarine climate-change ecologist and conservation scientist working on biodiversity redistribution, climate velocity, species distribution modelling, spatial ecology, and applied marine conservation.\nMy work connects global environmental datasets, ecological theory, reproducible workflows, and conservation decision-making, with a focus on how ocean warming reshapes biodiversity patterns and what that means for protected areas, climate adaptation, and ocean governance."
   },
   {
-    "objectID": "cv.html#experience",
-    "href": "cv.html#experience",
+    "objectID": "cv.html#current-roles",
+    "href": "cv.html#current-roles",
     "title": "CV",
-    "section": "Experience",
-    "text": "Experience\nSenior Associate Scientist, Conservation International\nJuly 2024 - Present\nAssociate Research Scientist, Conservation International\nNovember 2021 - June 2024\nResearch Associate, UC Santa Barbara Marine Science Institute\nNovember 2024 - Present\nAffiliated Researcher, UC Santa Barbara Marine Science Institute\nJanuary 2022 - October 2024\nPostdoctoral Research Fellow, The University of Queensland\nFebruary 2021 - September 2021"
+    "section": "Current Roles",
+    "text": "Current Roles\nSenior Associate Scientist, Conservation International\nJuly 2024 - Present\nResearch Associate, UC Santa Barbara Marine Science Institute\nNovember 2024 - Present"
+  },
+  {
+    "objectID": "cv.html#previous-roles",
+    "href": "cv.html#previous-roles",
+    "title": "CV",
+    "section": "Previous Roles",
+    "text": "Previous Roles\nAssociate Research Scientist, Conservation International\nNovember 2021 - June 2024\nAffiliated Researcher, UC Santa Barbara Marine Science Institute\nJanuary 2022 - October 2024\nPostdoctoral Research Fellow, The University of Queensland\nFebruary 2021 - September 2021\nProject Manager, Centro de Ecologia Aplicada\n2010 - 2016\nLecturer in Experimental Design, Universidad Católica de la Santísima Concepción\n2008 - 2009"
   },
   {
     "objectID": "cv.html#education",
@@ -28,123 +35,144 @@
     "text": "Education\nPhD in Biological Sciences, The University of Queensland\nClimate Change and Conservation, 2021\nBSc in Marine Biology, Universidad Católica de la Santísima Concepción\nFirst Class Honours, 2008"
   },
   {
-    "objectID": "cv.html#selected-achievements",
-    "href": "cv.html#selected-achievements",
+    "objectID": "cv.html#research-strengths",
+    "href": "cv.html#research-strengths",
     "title": "CV",
-    "section": "Selected Achievements",
-    "text": "Selected Achievements\nTBA."
+    "section": "Research Strengths",
+    "text": "Research Strengths\n\nMarine climate-change ecology and biodiversity redistribution.\nClimate velocity, climate exposure, marine climate refugia, and climate-smart conservation.\nSpecies distribution modelling, spatial ecology, oceanographic fronts, and marine megafauna.\nConservation planning, marine protected areas, high-seas conservation, and policy-relevant science.\nReproducible data science in R, spatial analysis, gridded climate products, Shiny, Git/GitHub, and Quarto."
   },
   {
-    "objectID": "cv.html#technical-skills",
-    "href": "cv.html#technical-skills",
+    "objectID": "cv.html#grants-fellowships-and-awards",
+    "href": "cv.html#grants-fellowships-and-awards",
     "title": "CV",
-    "section": "Technical Skills",
-    "text": "Technical Skills\nTBA."
+    "section": "Grants, Fellowships, and Awards",
+    "text": "Grants, Fellowships, and Awards\nSave the Blue Five - IKI Project\nInternational Climate Initiative, BMUV/Germany, 2023 - Present. Co-lead on climate-change vulnerability and conservation planning for highly migratory megafauna.\nBelmont Forum / Ocean Front Change Project\nInternational project on climate and dynamic ocean features, 2021 - 2024.\nPhD Grant\nChilean National Research and Development Agency (ANID), 2016.\nAcademic Excellence\nScience Faculty, Universidad Católica de la Santísima Concepción, 2008."
   },
   {
-    "objectID": "cv.html#leadership-and-collaboration",
-    "href": "cv.html#leadership-and-collaboration",
+    "objectID": "cv.html#teaching-training-and-mentoring",
+    "href": "cv.html#teaching-training-and-mentoring",
     "title": "CV",
-    "section": "Leadership and Collaboration",
-    "text": "Leadership and Collaboration\nTBA."
+    "section": "Teaching, Training, and Mentoring",
+    "text": "Teaching, Training, and Mentoring\nTeaching and supervision interests include quantitative ecology, marine conservation, climate-change biology, R, spatial modelling, biodiversity data science, climate-model products, and reproducible research.\nInstructor, UCSB ESM240 Climate Change Biology\n2023 and 2025. Designed and delivered graduate-level lectures, developed assignments, supervised projects, and evaluated coursework.\nTeaching Assistant, University of Queensland\n2018 - 2020. Courses included Advanced Analysis of Scientific Data, Analysis of Scientific Data, Pharmacy Data Analysis and Professional Practice, Probability and Statistics in Engineering, Environmental Data Analysis, and Biostatistics and Experimental Design.\nWorkshop organizer and contributor\nClimate and Ocean Modeling Workshop at CERFACS, Climate Change and Marine Megafauna Workshop in Panama, Ocean Front Megafauna and Climate Change workshop at Acadia University, and Ocean Front and Climate Change workshop at Nelson Mandela University.\nMentoring\nMentored graduate students and collaborators on Save the Blue Five climate-change assessment, megafauna-fisheries interactions, climate-smart closures for pelagic fisheries, high-seas conservation, and climate-proof marine protected areas.\nSelected public teaching materials are available on the Projects page, including climate-change biology practicals, ocean-front and marine-megafauna workshop material, climate-model tutorials in R, and Climate Data Operators training notes."
   },
   {
-    "objectID": "cv.html#recommendation-quotes",
-    "href": "cv.html#recommendation-quotes",
+    "objectID": "cv.html#presentations-and-service",
+    "href": "cv.html#presentations-and-service",
     "title": "CV",
-    "section": "Recommendation Quotes",
-    "text": "Recommendation Quotes\nTBA."
+    "section": "Presentations and Service",
+    "text": "Presentations and Service\nInvited presentations include climate change in the ocean and conservation at Encuentro del Pacífico Sudeste in Panama, and climate velocity in the ocean and implications for conservation at ASLO. Conference contributions include IMPAC5, Species on the Move, Ocean Sciences Meeting, and the Sustainability, Research and Innovation Congress."
   },
   {
-    "objectID": "cv.html#cv-versions",
-    "href": "cv.html#cv-versions",
+    "objectID": "cv.html#selected-outputs",
+    "href": "cv.html#selected-outputs",
     "title": "CV",
-    "section": "CV Versions",
-    "text": "CV Versions\nTBA."
+    "section": "Selected Outputs",
+    "text": "Selected Outputs\n\nFirst-author publications in Nature Climate Change and Trends in Ecology & Evolution on climate velocity, deep-ocean biodiversity exposure, and climate-smart protected areas.\nApplied conservation-science contributions in Nature, Nature Reviews Biodiversity, Ecological Applications, and Methods in Ecology and Evolution.\nInteractive Shiny tools for ocean-climate downscaling products and marine megafauna occurrence data.\nReproducible training and workshop material for students, collaborators, and conservation practitioners."
+  },
+  {
+    "objectID": "cv.html#languages",
+    "href": "cv.html#languages",
+    "title": "CV",
+    "section": "Languages",
+    "text": "Languages\nFluent Spanish and fluent English."
   },
   {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "This page gathers accepted, in-review, and published work from my research on marine climate change, conservation planning, climate velocity, and ocean biodiversity."
+    "text": "Selected publications are organized for quick scanning by search committees, collaborators, and conservation-science partners. Tags highlight major research themes; DOI links are included where available."
+  },
+  {
+    "objectID": "publications.html#selected-flagship-papers",
+    "href": "publications.html#selected-flagship-papers",
+    "title": "Publications",
+    "section": "Selected / Flagship Papers",
+    "text": "Selected / Flagship Papers\n\n\n\nFirst author · Nature Climate Change · 2022\n\n\nTowards climate-smart, three-dimensional protected areas for biodiversity conservation in the high seas.\nBrito-Morales I, Schoeman DS, Everett J, Klein CJ, Dunn D, Garcia Molinos J, Burrows MT, Buenafe KCV, Dominguez RM, Possingham HP, Richardson AJ. Nature Climate Change 12, 402-407.\n\nclimate adaptation conservation planning high seas spatial ecology\n\nSignificance: Advances climate-smart, depth-aware protected-area design for biodiversity conservation in the high seas.\nDOI\n\n\n\n\nFirst author · Nature Climate Change · 2020\n\n\nClimate velocity reveals increasing exposure of deep-ocean biodiversity to future warming.\nBrito-Morales I, Schoeman DS, Garcia Molinos J, Burrows MT, Klein CJ, Arafeh-Dalmau N, Kaschner K, Garilao C, Kesner-Reyes K, Richardson AJ. Nature Climate Change 10, 576-581.\n\nclimate velocity marine biodiversity deep ocean global change ecology\n\nSignificance: Shows that deep-ocean biodiversity faces increasing exposure to future warming, broadening climate-risk assessment beyond surface ecosystems.\nDOI\n\n\n\n\nFirst author · Trends in Ecology & Evolution · 2018\n\n\nClimate velocity can inform conservation in a warming world.\nBrito-Morales I, Garcia Molinos J, Schoeman DS, Burrows MT, Poloczanska ES, Brown CJ, Ferrier S, Harwood TD, Klein CJ, McDonald-Madden E, Moore PJ, Pandolfi JM, Watson JEM, Wenger AS, Richardson AJ. Trends in Ecology & Evolution 33, 441-457.\n\nclimate velocity conservation science climate adaptation spatial ecology\n\nSignificance: Synthesizes how climate velocity can guide conservation decisions as species and environmental conditions move under climate change.\nDOI\n\n\n\n\nCo-author · conceptual/methods contributor · Trends in Ecology & Evolution · 2023\n\n\nDemystifying global climate models for use in the life sciences.\nSchoeman DS, Sen Gupta A, Harrison CS, Everett J, Brito-Morales I, Hannah L, Bopp L, Roehrdanz P, Richardson AJ. Trends in Ecology & Evolution.\n\nclimate models biodiversity data science reproducible workflows\n\nSignificance: Helps ecologists and conservation scientists use global climate-model products more defensibly in biodiversity research.\nDOI\n\n\n\n\nCo-author · climate-velocity and reproducible figures lead · Trends in Ecology & Evolution · 2026\n\n\nIdentifying marine climate refugia to advance climate-smart conservation.\nSanz-Martin M, Olguin-Jacobson C, Bolin JA, Quiles-Pons C, Brito-Morales I, Garcia Molinos J, Hidalgo M, Alabia ID, Gissi E, Provost MM, Micheli F, Arafeh-Dalmau N. Trends in Ecology & Evolution. In press.\n\nmarine refugia climate-smart conservation protected areas\n\nSignificance: Reviews how marine climate refugia can strengthen climate-smart conservation and protected-area planning.\nDOI | Code"
   },
   {
     "objectID": "publications.html#accepted-in-press",
     "href": "publications.html#accepted-in-press",
     "title": "Publications",
     "section": "Accepted / In Press",
-    "text": "Accepted / In Press\n\n\nIdentifying marine climate refugia to advance climate-smart conservation.\nMarina Sanz-Martin, Carolina Olguin-Jacobson, Jessica A. Bolin, Carla Quiles-Pons, Isaac Brito-Morales, Jorge Garcia Molinos, Manuel Hidalgo, Irene D. Alabia, Elena Gissi, Mikaela M. Provost, Fiorenza Micheli, Nur Arafeh-Dalmau. 2026. Trends in Ecology & Evolution. In press.\nDOI"
+    "text": "Accepted / In Press\n\n\n\nCo-author · climate-velocity and reproducible figures lead · Trends in Ecology & Evolution · 2026\n\n\nIdentifying marine climate refugia to advance climate-smart conservation.\nMarina Sanz-Martin, Carolina Olguin-Jacobson, Jessica A. Bolin, Carla Quiles-Pons, Isaac Brito-Morales, Jorge Garcia Molinos, Manuel Hidalgo, Irene D. Alabia, Elena Gissi, Mikaela M. Provost, Fiorenza Micheli, Nur Arafeh-Dalmau. 2026. Trends in Ecology & Evolution. In press.\n\nmarine refugia climate adaptation conservation planning\n\nDOI | Code"
   },
   {
     "objectID": "publications.html#in-review",
     "href": "publications.html#in-review",
     "title": "Publications",
     "section": "In Review",
-    "text": "In Review\nManuscripts available upon request unless a preprint is linked.\n\n\nEvolving area-based conservation for a dynamic ocean.\nIsaac Brito-Morales, Yulia Egorova, Lee Hannah, Guillermo Ortuño Crespo, Nur Arafeh-Dalmau. In review.\n\n\nMultifaceted thermal exposure reveals climate refugia shortfalls in the Mediterranean marine protected areas.\nIan Omedes Bassat, Manuel Hidalgo, Carla Quiles-Pons, Jorge Garcia Molinos, Isaac Brito-Morales, Nur Arafeh-Dalmau, Javier Soto-Navarro, Marina Sanz-Martin. In review.\n\n\nOcean fronts concentrate fishing pressure on threatened megafauna.\nLee Hannah, Sarayu Ramnath, Kylie L. Scales, Vincent Rossi, Ana Sequeira, Tammy E. Davies, Elliott Hazen, Daniel Dunn, Peter I. Miller, Sophie Laran, Valeria Falabella, Lenaya-Aiden Gonzales, Isaac Brito-Morales. In review. Prepared for submission to Proceedings of the National Academy of Sciences (PNAS).\n\n\nMegafauna show pervasive yet distinct affinity to ocean fronts: the urgent need for adaptive conservation in a warming world.\nIsaac Brito-Morales, Boris Dewitte, Floriane Sudre, Christoph A. Rohner, Elliott L. Hazen, Kylie L. Scales, Matthieu Le Corre, Audrey Jaeger, Sophie Laran, Olivier Bousquet, Ana M. M. Sequeira, Tammy E. Davies, Daniel C. Dunn, Ronel Nel, Lee Hannah, Vincent Rossi. Commun. Biol. In review.\nPreprint DOI"
+    "text": "In Review\nManuscripts are available upon request unless a preprint is linked.\n\n\n\nFirst author\n\n\nEvolving area-based conservation for a dynamic ocean.\nIsaac Brito-Morales, Yulia Egorova, Lee Hannah, Guillermo Ortuño Crespo, Nur Arafeh-Dalmau. In review.\n\ndynamic ocean area-based conservation climate adaptation\n\n\n\n\n\nCo-author · writing and workflow support\n\n\nMultifaceted thermal exposure reveals climate refugia shortfalls in the Mediterranean marine protected areas.\nIan Omedes Bassat, Manuel Hidalgo, Carla Quiles-Pons, Jorge Garcia Molinos, Isaac Brito-Morales, Nur Arafeh-Dalmau, Javier Soto-Navarro, Marina Sanz-Martin. In review.\n\nclimate refugia thermal exposure marine protected areas\n\n\n\n\n\nSenior author · analysis, figures, and code lead\n\n\nOcean fronts concentrate fishing pressure on threatened megafauna.\nLee Hannah, Sarayu Ramnath, Kylie L. Scales, Vincent Rossi, Ana Sequeira, Tammy E. Davies, Elliott Hazen, Daniel Dunn, Peter I. Miller, Sophie Laran, Valeria Falabella, Lenaya-Aiden Gonzales, Isaac Brito-Morales. In review. Prepared for submission to Proceedings of the National Academy of Sciences (PNAS).\n\nocean fronts marine megafauna fishing pressure conservation policy\n\nCode\n\n\n\n\nFirst author · Preprint available\n\n\nMegafauna show pervasive yet distinct affinity to ocean fronts: the urgent need for adaptive conservation in a warming world.\nIsaac Brito-Morales, Boris Dewitte, Floriane Sudre, Christoph A. Rohner, Elliott L. Hazen, Kylie L. Scales, Matthieu Le Corre, Audrey Jaeger, Sophie Laran, Olivier Bousquet, Ana M. M. Sequeira, Tammy E. Davies, Daniel C. Dunn, Ronel Nel, Lee Hannah, Vincent Rossi. Commun. Biol. In review.\n\nocean fronts marine biodiversity SDM adaptive conservation\n\nPreprint DOI"
   },
   {
     "objectID": "publications.html#published-papers",
     "href": "publications.html#published-papers",
     "title": "Publications",
     "section": "Published Papers",
-    "text": "Published Papers\n\n\nCurrent approaches and future opportunities for climate-smart protected areas.\nBuenafe KCV, Dunn DC, Metaxas A, Schoeman DS, Everett JD, Pidd A, Hanson JO, Bentley LK, Kim SW, Neubert S, Scales KL, Dabala A, Brito-Morales I, Richardson AJ. 2025. Nature Reviews Biodiversity.\nDOI\n\n\nTo save the high seas, plan for climate change.\nHannah L, Irvine A, Brito-Morales I, Fuller S, Davies T, Tittensor D, Reville G, Shackell N, Hennicke J, Stanley R. 2024. Nature.\nDOI\n\n\nClimate velocity drives unexpected southward patterns of species shifts in the Western Mediterranean Sea.\nSanz-Martin M, Hidalgo M, Puerta P, Garcia Molinos J, Zamanillo M, Brito-Morales I, Gonzalez-Irusta JM, Esteban A, Punzon A, Garcia-Rodriguez E, Vivas M, Lopez-Lopez L. 2024. Ecological Indicators.\nDOI\n\n\nDemystifying global climate models for use in the life sciences.\nSchoeman DS, Sen Gupta A, Harrison CS, Everett J, Brito-Morales I, Hannah L, Bopp L, Roehrdanz P, Richardson AJ. 2023. Trends in Ecology & Evolution.\nDOI\n\n\nA metric-based framework for climate-smart conservation planning.\nBuenafe KCV, Dunn D, Everett J, Brito-Morales I, Schoeman DS, Hanson JO, Dabala A, Neubert S, Cannicci S, Kaschner K, Richardson AJ. 2023. Ecological Applications.\nDOI\n\n\nTowards climate-smart, three-dimensional protected areas for biodiversity conservation in the high seas.\nBrito-Morales I, Schoeman DS, Everett J, Klein CJ, Dunn D, Garcia Molinos J, Burrows MT, Buenafe KCV, Dominguez RM, Possingham HP, Richardson AJ. 2022. Nature Climate Change 12, 402-407.\nDOI\n\n\nIncorporating climate velocity into the design of climate-smart networks of marine protected areas.\nArafeh-Dalmau N, Brito-Morales I, Schoeman DS, Possingham HP, Klein CJ, Richardson AJ. 2021. Methods in Ecology and Evolution.\nDOI\n\n\nClimate velocity reveals increasing exposure of deep-ocean biodiversity to future warming.\nBrito-Morales I, Schoeman DS, Garcia Molinos J, Burrows MT, Klein CJ, Arafeh-Dalmau N, Kaschner K, Garilao C, Kesner-Reyes K, Richardson AJ. 2020. Nature Climate Change 10, 576-581.\nDOI\n\n\nClimate velocity can inform conservation in a warming world.\nBrito-Morales I, Garcia Molinos J, Schoeman DS, Burrows MT, Poloczanska ES, Brown CJ, Ferrier S, Harwood TD, Klein CJ, McDonald-Madden E, Moore PJ, Pandolfi JM, Watson JEM, Wenger AS, Richardson AJ. 2018. Trends in Ecology & Evolution 33, 441-457.\nDOI"
+    "text": "Published Papers\n\n\n\nCo-author · climate-velocity section lead · Nature Reviews Biodiversity · 2025\n\n\nCurrent approaches and future opportunities for climate-smart protected areas.\nBuenafe KCV, Dunn DC, Metaxas A, Schoeman DS, Everett JD, Pidd A, Hanson JO, Bentley LK, Kim SW, Neubert S, Scales KL, Dabala A, Brito-Morales I, Richardson AJ. Nature Reviews Biodiversity.\n\nclimate-smart conservation protected areas climate adaptation\n\nDOI\n\n\n\n\nAnalysis and writing lead · Nature · 2024\n\n\nTo save the high seas, plan for climate change.\nHannah L, Irvine A, Brito-Morales I, Fuller S, Davies T, Tittensor D, Reville G, Shackell N, Hennicke J, Stanley R. Nature.\n\nhigh seas climate policy marine spatial planning\n\nDOI\n\n\n\n\nCo-author · Ecological Indicators · 2024\n\n\nClimate velocity drives unexpected southward patterns of species shifts in the Western Mediterranean Sea.\nSanz-Martin M, Hidalgo M, Puerta P, Garcia Molinos J, Zamanillo M, Brito-Morales I, Gonzalez-Irusta JM, Esteban A, Punzon A, Garcia-Rodriguez E, Vivas M, Lopez-Lopez L. Ecological Indicators.\n\nclimate velocity species shifts marine biodiversity\n\nDOI\n\n\n\n\nCo-author · conceptual/methods contributor · Trends in Ecology & Evolution · 2023\n\n\nDemystifying global climate models for use in the life sciences.\nSchoeman DS, Sen Gupta A, Harrison CS, Everett J, Brito-Morales I, Hannah L, Bopp L, Roehrdanz P, Richardson AJ. Trends in Ecology & Evolution.\n\nclimate models life sciences biodiversity data science\n\nDOI\n\n\n\n\nCo-author · manuscript writing contributor · Ecological Applications · 2023\n\n\nA metric-based framework for climate-smart conservation planning.\nBuenafe KCV, Dunn D, Everett J, Brito-Morales I, Schoeman DS, Hanson JO, Dabala A, Neubert S, Cannicci S, Kaschner K, Richardson AJ. Ecological Applications.\n\nconservation planning climate adaptation metrics\n\nDOI\n\n\n\n\nFirst author · Nature Climate Change · 2022\n\n\nTowards climate-smart, three-dimensional protected areas for biodiversity conservation in the high seas.\nBrito-Morales I, Schoeman DS, Everett J, Klein CJ, Dunn D, Garcia Molinos J, Burrows MT, Buenafe KCV, Dominguez RM, Possingham HP, Richardson AJ. Nature Climate Change 12, 402-407.\n\nconservation planning high seas climate adaptation\n\nDOI\n\n\n\n\nEqual lead author · climate-velocity methods · Methods in Ecology and Evolution · 2021\n\n\nIncorporating climate velocity into the design of climate-smart networks of marine protected areas.\nArafeh-Dalmau N, Brito-Morales I, Schoeman DS, Possingham HP, Klein CJ, Richardson AJ. Methods in Ecology and Evolution.\n\nclimate velocity marine protected areas conservation planning\n\nDOI\n\n\n\n\nFirst author · Nature Climate Change · 2020\n\n\nClimate velocity reveals increasing exposure of deep-ocean biodiversity to future warming.\nBrito-Morales I, Schoeman DS, Garcia Molinos J, Burrows MT, Klein CJ, Arafeh-Dalmau N, Kaschner K, Garilao C, Kesner-Reyes K, Richardson AJ. Nature Climate Change 10, 576-581.\n\nclimate velocity marine biodiversity deep ocean\n\nDOI\n\n\n\n\nFirst author · Trends in Ecology & Evolution · 2018\n\n\nClimate velocity can inform conservation in a warming world.\nBrito-Morales I, Garcia Molinos J, Schoeman DS, Burrows MT, Poloczanska ES, Brown CJ, Ferrier S, Harwood TD, Klein CJ, McDonald-Madden E, Moore PJ, Pandolfi JM, Watson JEM, Wenger AS, Richardson AJ. Trends in Ecology & Evolution 33, 441-457.\n\nclimate velocity conservation science spatial ecology\n\nDOI"
   },
   {
-    "objectID": "publications.html#highly-cited-work",
-    "href": "publications.html#highly-cited-work",
+    "objectID": "publications.html#research-outputs-beyond-papers",
+    "href": "publications.html#research-outputs-beyond-papers",
     "title": "Publications",
-    "section": "Highly Cited Work",
-    "text": "Highly Cited Work\n\n\nClimate velocity can inform conservation in a warming world.\nBrito-Morales I et al. 2018. Trends in Ecology & Evolution.\n\n\nClimate velocity reveals increasing exposure of deep-ocean biodiversity to future warming.\nBrito-Morales I et al. 2020. Nature Climate Change."
-  },
-  {
-    "objectID": "publications.html#datasets-and-software-papers",
-    "href": "publications.html#datasets-and-software-papers",
-    "title": "Publications",
-    "section": "Datasets and Software Papers",
-    "text": "Datasets and Software Papers\n\nUnder construction."
-  },
-  {
-    "objectID": "publications.html#invited-reviews-or-perspectives",
-    "href": "publications.html#invited-reviews-or-perspectives",
-    "title": "Publications",
-    "section": "Invited Reviews or Perspectives",
-    "text": "Invited Reviews or Perspectives\n\nUnder construction."
-  },
-  {
-    "objectID": "publications.html#in-preparation",
-    "href": "publications.html#in-preparation",
-    "title": "Publications",
-    "section": "In Preparation",
-    "text": "In Preparation\n\nEmpty for now."
+    "section": "Research Outputs Beyond Papers",
+    "text": "Research Outputs Beyond Papers\n\n\nOcean Downscaling Viewer\nInteractive Shiny tool for inspecting high-resolution derived ocean products, including baseline and future layers, depth zones, regional overlays, and summary statistics.\n\nR/Shiny climate downscaling decision support\n\nOpen app\n\n\nMegafauna Data Viewer\nInteractive Shiny tool for filtering, mapping, and reviewing marine megafauna occurrence records for the Save the Blue 5 project.\n\nR/Shiny marine megafauna biodiversity data\n\nOpen app | Save the Blue 5"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Projects make the site useful beyond a CV. This is where people can find things to reuse, cite, adapt, or invite you to talk about."
+    "text": "These projects emphasize reusable science: data products, decision-support tools, workshops, and workflows that help collaborators move from climate and biodiversity data to conservation action."
+  },
+  {
+    "objectID": "projects.html#selected-research-tools-projects",
+    "href": "projects.html#selected-research-tools-projects",
+    "title": "Projects",
+    "section": "Selected Research Tools & Projects",
+    "text": "Selected Research Tools & Projects"
+  },
+  {
+    "objectID": "projects.html#ocean-downscaling-viewer",
+    "href": "projects.html#ocean-downscaling-viewer",
+    "title": "Projects",
+    "section": "Ocean Downscaling Viewer",
+    "text": "Ocean Downscaling Viewer\nInteractive viewer for high-resolution derived ocean products, designed for mapping, inspection, and summary statistics across baseline and future products.\nMethods and skills: R/Shiny, spatial raster workflows, ocean-climate downscaling, baseline and future climatologies, depth layers, regional overlays.\nConservation or policy relevance: Supports inspection of climate layers used in species distribution models, exposure analyses, and marine spatial planning.\nOpen app | Related post"
+  },
+  {
+    "objectID": "projects.html#megafauna-data-viewer",
+    "href": "projects.html#megafauna-data-viewer",
+    "title": "Projects",
+    "section": "Megafauna Data Viewer",
+    "text": "Megafauna Data Viewer\nInteractive explorer for marine megafauna occurrence records, with filters for species, data source, telemetry or observation records, quality control, year, and exclusive economic zone overlays.\nMethods and skills: R/Shiny, biodiversity-data processing, telemetry and observation data, interactive maps, quality-control workflows.\nConservation or policy relevance: Makes Save the Blue 5 biodiversity data easier to review, communicate, and use in climate-informed conservation analyses for the Southeast Pacific.\nOpen app | Save the Blue 5"
+  },
+  {
+    "objectID": "projects.html#save-the-blue-5",
+    "href": "projects.html#save-the-blue-5",
+    "title": "Projects",
+    "section": "Save the Blue 5",
+    "text": "Save the Blue 5\nApplied research on climate change, marine megafauna, and conservation planning in the Southeast Pacific, including data workflows and modelling products for migratory species.\nMethods and skills: Species distribution modelling, climate-data processing, spatial ecology, marine megafauna data synthesis, collaborative conservation science.\nConservation or policy relevance: Supports climate-smart conservation planning for threatened and migratory marine species across national waters and regional ocean governance contexts.\nProject site | Megafauna Data Viewer"
   },
   {
     "objectID": "projects.html#ocean-fronts-and-biodiversity",
     "href": "projects.html#ocean-fronts-and-biodiversity",
     "title": "Projects",
     "section": "Ocean Fronts and Biodiversity",
-    "text": "Ocean Fronts and Biodiversity\nResearch on how oceanographic fronts structure marine biodiversity and conservation priorities.\nUseful for: conservation planning, spatial ecology, climate adaptation.\nProject link"
+    "text": "Ocean Fronts and Biodiversity\nResearch on how oceanographic fronts structure marine biodiversity, influence fishing pressure, and shape conservation priorities in a dynamic ocean.\nMethods and skills: Spatial ecology, oceanography, ocean fronts, biodiversity modelling, climate-change analysis.\nConservation or policy relevance: Connects dynamic habitat features to adaptive conservation, spatial management, and policy-relevant marine science.\nProject link"
+  },
+  {
+    "objectID": "projects.html#ocean-climate-downscaling-pipeline",
+    "href": "projects.html#ocean-climate-downscaling-pipeline",
+    "title": "Projects",
+    "section": "Ocean Climate Downscaling Pipeline",
+    "text": "Ocean Climate Downscaling Pipeline\nWorkflow for transforming coarse-resolution future ocean projections into high-resolution 3D marine data layers for species distribution models and climate exposure analyses.\nMethods and skills: R, HPC workflows, CMIP and reanalysis products, vertical interpolation, climatologies, anomaly methods, NetCDF and tabular exports.\nConservation or policy relevance: Converts raw climate-model products into reusable layers for ecological forecasting, climate-risk assessment, and conservation planning.\nRead the workflow post | Open viewer"
   },
   {
     "objectID": "projects.html#reproducible-marine-ecology-in-r",
     "href": "projects.html#reproducible-marine-ecology-in-r",
     "title": "Projects",
     "section": "Reproducible Marine Ecology in R",
-    "text": "Reproducible Marine Ecology in R\nStarter material for transparent analysis, maps, species distribution workflows, and environmental data processing.\nUseful for: students, collaborators, workshop participants.\nGitHub"
-  },
-  {
-    "objectID": "projects.html#workshops-and-teaching",
-    "href": "projects.html#workshops-and-teaching",
-    "title": "Projects",
-    "section": "Workshops and Teaching",
-    "text": "Workshops and Teaching\nHands-on teaching materials for climate change biology, marine megafauna, reproducible workflows, Git, GitHub, and environmental data processing.\nUseful for: students, collaborators, workshop participants, and people looking for reusable training material.\nSee materials"
+    "text": "Reproducible Marine Ecology in R\nReusable repositories and teaching material for transparent analysis, maps, species distribution workflows, environmental data processing, and collaborative code review.\nMethods and skills: R, Git/GitHub, Quarto, spatial data, gridded climate products, biodiversity data workflows.\nConservation or policy relevance: Builds capacity for transparent, repeatable conservation analyses across students, collaborators, and applied research teams.\nGitHub"
   },
   {
     "objectID": "projects.html#workshops-and-teaching-materials",
@@ -158,7 +186,7 @@
     "href": "projects.html#climate-change-biology-hands-on-session",
     "title": "Projects",
     "section": "Climate Change Biology Hands-on Session",
-    "text": "Climate Change Biology Hands-on Session\nCourse practicals for ESM 240 at the Bren School, focused on climate-smart marine conservation, CMIP6 climate data, R workflows, and applied climate change biology.\nAudience: master’s students in environmental science and management.\nGitHub | Course site"
+    "text": "Climate Change Biology Hands-on Session\nCourse practicals for ESM 240 at the Bren School, focused on climate-smart marine conservation, CMIP6 climate data, R workflows, and applied climate-change biology.\nAudience: master’s students in environmental science and management.\nRole: instructor, with graduate-level lectures, assignments, project supervision, and coursework evaluation.\nGitHub | Course site"
   },
   {
     "objectID": "projects.html#ocean-fronts-and-marine-megafauna-workshop",
@@ -172,21 +200,21 @@
     "href": "projects.html#megafauna-and-climate-change-workshop",
     "title": "Projects",
     "section": "Megafauna and Climate Change Workshop",
-    "text": "Megafauna and Climate Change Workshop\nTeaching repository for a marine megafauna and climate change workshop, collecting reusable scripts, examples, and practical material for climate-informed biodiversity work.\nAudience: researchers and students working with marine species, climate exposure, and reproducible analysis.\nGitHub"
+    "text": "Megafauna and Climate Change Workshop\nTeaching repository for a marine megafauna and climate-change workshop, collecting reusable scripts, examples, and practical material for climate-informed biodiversity work.\nAudience: researchers and students working with marine species, climate exposure, and reproducible analysis.\nGitHub"
   },
   {
     "objectID": "projects.html#guide-to-climate-models-in-r",
     "href": "projects.html#guide-to-climate-models-in-r",
     "title": "Projects",
     "section": "Guide to Climate Models in R",
-    "text": "Guide to Climate Models in R\nOlder but still useful teaching notes for working with climate model outputs in R, especially as historical context for climate-data workflows and student onboarding.\nAudience: learners getting started with climate model data in R.\nGitHub"
+    "text": "Guide to Climate Models in R\nTeaching notes for working with climate-model outputs in R, useful for onboarding students and collaborators to climate-data workflows.\nAudience: learners getting started with climate model data in R.\nGitHub"
   },
   {
     "objectID": "projects.html#climate-data-operators-guide",
     "href": "projects.html#climate-data-operators-guide",
     "title": "Projects",
     "section": "Climate Data Operators Guide",
-    "text": "Climate Data Operators Guide\nIntroductory guide to using CDO for CMIP climate data manipulation, including regridding, interpolation, batch processing, and summary operations on netCDF files.\nAudience: students and analysts working with gridded climate data.\nGitHub"
+    "text": "Climate Data Operators Guide\nIntroductory guide to using CDO for CMIP climate-data manipulation, including regridding, interpolation, batch processing, and summary operations on netCDF files.\nAudience: students and analysts working with gridded climate data.\nGitHub"
   },
   {
     "objectID": "posts/ocean-climate-downscaling-pipeline/index.html",
@@ -242,7 +270,7 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "If something here resonates, I would be glad to hear from you. I am always happy to connect around marine conservation, climate-change science, reproducible data workflows, workshops, collaborations, or opportunities where my experience could be useful."
+    "text": "I am glad to connect about marine climate-change ecology, biodiversity redistribution, conservation planning, spatial modelling, reproducible data workflows, teaching, workshops, collaborations, and faculty or research opportunities."
   },
   {
     "objectID": "contact.html#email",
@@ -256,14 +284,14 @@
     "href": "contact.html#profiles",
     "title": "Contact",
     "section": "Profiles",
-    "text": "Profiles\nGitHub\nLinkedIn\nResearchGate\nGoogle Scholar"
+    "text": "Profiles\nGoogle Scholar\nORCID\nGitHub\nLinkedIn\nResearchGate"
   },
   {
     "objectID": "contact.html#materials",
     "href": "contact.html#materials",
     "title": "Contact",
     "section": "Materials",
-    "text": "Materials\nDownload CV\nBrowse publications\nExplore projects"
+    "text": "Materials\nDownload CV\nBrowse publications\nExplore projects\nTeaching materials"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -277,28 +305,63 @@
     "href": "index.html",
     "title": "Dr Isaac Brito-Morales",
     "section": "",
-    "text": "I study how climate change reshapes biodiversity in the ocean, and I build reproducible analyses that help conservation decisions travel from data to action.\n\nView publications Download CV"
+    "text": "My research links climate velocity, species distribution modelling, and conservation planning to forecast marine biodiversity redistribution and design climate-smart ocean protection.\n\nDownload CV Publications Projects\n\n\nGoogle Scholar · ORCID · GitHub · LinkedIn"
   },
   {
-    "objectID": "index.html#what-i-work-on",
-    "href": "index.html#what-i-work-on",
+    "objectID": "index.html#research-program",
+    "href": "index.html#research-program",
     "title": "Dr Isaac Brito-Morales",
-    "section": "What I Work On",
-    "text": "What I Work On\nI am a marine ecologist and conservation scientist focused on species redistribution, marine climate exposure, conservation planning, and open, reproducible workflows in R.\nMy work connects global environmental datasets, ecological theory, and practical conservation needs, with a particular interest in how ocean dynamics shape biodiversity patterns and climate adaptation."
+    "section": "Research Program",
+    "text": "Research Program\nMarine biodiversity is redistributing as climate change alters the physical structure of the ocean. I develop climate metrics, 3D species distribution models, and reproducible data tools that connect ecological forecasts to conservation planning, protected-area design, and ocean governance.\n\n\n10+ papers\npublished or in press\n\n\nFlagship journals\nNature Climate Change, TREE, Nature\n\n\nApplied leadership\nanalysis, senior-author, and writing roles\n\n\nFunded projects\nIKI Save the Blue Five and Belmont Forum Ocean Front Change\n\n\n\nmarine climate-change ecology biodiversity redistribution species distribution modelling conservation planning climate adaptation reproducible R"
   },
   {
-    "objectID": "index.html#featured-highlights",
-    "href": "index.html#featured-highlights",
+    "objectID": "index.html#selected-publications",
+    "href": "index.html#selected-publications",
     "title": "Dr Isaac Brito-Morales",
-    "section": "Featured Highlights",
-    "text": "Featured Highlights\n\n\nNew Paper on Marine Climate Refugia\n\n\nFigure: Trends in Ecology & Evolution\n\nAs the world works toward protecting 30% of the ocean by 2030, a central question remains: which places will still support biodiversity as climate change accelerates? Our new paper in Trends in Ecology & Evolution reviews how marine climate refugia can help guide more climate-smart ocean conservation.\nRead the paper\n\n\nCurrent Projects\n\n\nPhoto: Chris Rohner\n\nSave the Blue 5: Building 3D species distribution models and climate-data workflows to assess how climate change may reshape migratory marine megafauna habitat across the Southeast Pacific.\nVisit project\n\n\nNotes and Blog\n\n\nImage: NOAA NESDIS/STAR\n\nOcean Climate Downscaling: read a blog I made about building a workflow to transform coarse-resolution future ocean projections into high-resolution 3D marine data layers for species distribution models, climate exposure analyses, and conservation planning.\nRead the post\n\n\n Share\n\n\nLinkedIn\nBluesky\n\nNative share\n\n\nCopy link"
+    "section": "Selected Publications",
+    "text": "Selected Publications\nThree first-author papers anchor the research program; the full publication page includes contribution roles, DOI links, preprints, and code repositories.\n\n\n\nFirst author · Nature Climate Change · 2022\n\n\nTowards climate-smart, three-dimensional protected areas for biodiversity conservation in the high seas.\nBrito-Morales I, Schoeman DS, Everett J, Klein CJ, Dunn D, Garcia Molinos J, Burrows MT, Buenafe KCV, Dominguez RM, Possingham HP, Richardson AJ. Nature Climate Change 12, 402-407.\n\nclimate adaptation conservation planning high seas spatial ecology\n\nWhy it matters: Advances climate-smart, depth-aware protected-area design for biodiversity conservation beyond national jurisdictions.\nDOI\n\n\n\n\nFirst author · Nature Climate Change · 2020\n\n\nClimate velocity reveals increasing exposure of deep-ocean biodiversity to future warming.\nBrito-Morales I, Schoeman DS, Garcia Molinos J, Burrows MT, Klein CJ, Arafeh-Dalmau N, Kaschner K, Garilao C, Kesner-Reyes K, Richardson AJ. Nature Climate Change 10, 576-581.\n\nclimate velocity marine biodiversity deep ocean global change ecology\n\nWhy it matters: Shows that deep-ocean biodiversity faces increasing climate exposure, extending climate-risk assessment beyond surface ecosystems.\nDOI\n\n\n\n\nFirst author · Trends in Ecology & Evolution · 2018\n\n\nClimate velocity can inform conservation in a warming world.\nBrito-Morales I, Garcia Molinos J, Schoeman DS, Burrows MT, Poloczanska ES, Brown CJ, Ferrier S, Harwood TD, Klein CJ, McDonald-Madden E, Moore PJ, Pandolfi JM, Watson JEM, Wenger AS, Richardson AJ. Trends in Ecology & Evolution 33, 441-457.\n\nclimate velocity conservation science climate adaptation spatial ecology\n\nWhy it matters: A widely used synthesis linking climate velocity metrics to conservation decisions under climate change.\nDOI\n\n\n\nBrowse publications"
   },
   {
-    "objectID": "index.html#current-snapshot",
-    "href": "index.html#current-snapshot",
+    "objectID": "index.html#research-tools-projects",
+    "href": "index.html#research-tools-projects",
     "title": "Dr Isaac Brito-Morales",
-    "section": "Current Snapshot",
-    "text": "Current Snapshot\n\n\nSenior Associate Scientist, Conservation International\nLeading applied research on marine biodiversity, ocean fronts, climate change, and conservation planning.\n\n\nResearch Associate, UC Santa Barbara Marine Science Institute\nCollaborating on marine science, conservation, and global environmental data analysis.\n\n\nPhD, The University of Queensland\nBiological sciences, climate change, and conservation."
+    "section": "Research Tools & Projects",
+    "text": "Research Tools & Projects\nApplied outputs include Shiny viewers, climate-data pipelines, and reusable teaching/workshop material that make ocean-climate and biodiversity data easier to inspect, model, and use in conservation decisions."
+  },
+  {
+    "objectID": "index.html#ocean-downscaling-viewer",
+    "href": "index.html#ocean-downscaling-viewer",
+    "title": "Dr Isaac Brito-Morales",
+    "section": "Ocean Downscaling Viewer",
+    "text": "Ocean Downscaling Viewer\nHigh-resolution derived ocean products for mapping, inspection, and summary statistics across baseline and future layers.\nOpen app · Related post"
+  },
+  {
+    "objectID": "index.html#megafauna-data-viewer",
+    "href": "index.html#megafauna-data-viewer",
+    "title": "Dr Isaac Brito-Morales",
+    "section": "Megafauna Data Viewer",
+    "text": "Megafauna Data Viewer\nMarine megafauna occurrence records for filtering, mapping, and data-ready review in the Southeast Pacific.\nOpen app · Save the Blue 5"
+  },
+  {
+    "objectID": "index.html#ocean-fronts-and-biodiversity",
+    "href": "index.html#ocean-fronts-and-biodiversity",
+    "title": "Dr Isaac Brito-Morales",
+    "section": "Ocean Fronts and Biodiversity",
+    "text": "Ocean Fronts and Biodiversity\nResearch on how dynamic oceanographic fronts structure marine biodiversity, migratory megafauna habitat, and conservation priorities.\nProject link"
+  },
+  {
+    "objectID": "index.html#teaching-supervision",
+    "href": "index.html#teaching-supervision",
+    "title": "Dr Isaac Brito-Morales",
+    "section": "Teaching & Supervision",
+    "text": "Teaching & Supervision\n\n\nTeaching Areas\nQuantitative ecology, climate-change biology, spatial modelling, marine conservation, biodiversity data science, statistics, and reproducible R workflows.\n\n\nInstruction & Workshops\nUCSB ESM240 Climate Change Biology; UQ data-analysis and biostatistics courses; workshops on ocean models, marine megafauna, CMIP data, Git/GitHub, and conservation workflows.\n\n\nExplore teaching materials"
+  },
+  {
+    "objectID": "index.html#future-research-directions",
+    "href": "index.html#future-research-directions",
+    "title": "Dr Isaac Brito-Morales",
+    "section": "Future Research Directions",
+    "text": "Future Research Directions\n\n\nForecasting Redistribution\nIntegrate climate velocity, 3D ocean conditions, species traits, and uncertainty-aware biodiversity models.\n\n\nLinking Models to Planning\nConnect biodiversity models to protected-area design, dynamic management, and marine spatial planning across depth, time, and jurisdiction.\n\n\nBuilding Adaptation Tools\nTranslate ocean-climate data into decision-support products for governance, protected-area design, and conservation practice."
   },
   {
     "objectID": "posts.html",

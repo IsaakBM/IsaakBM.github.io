@@ -1,7 +1,7 @@
 ---
 title: ""
 pagetitle: "Dr Isaac Brito-Morales"
-description: "Marine ecologist and conservation scientist working across climate change, ocean biodiversity, and reproducible data science."
+description: "Marine climate-change ecologist and conservation scientist working on biodiversity redistribution, climate velocity, spatial modelling, and policy-relevant marine conservation."
 page-layout: full
 toc: false
 format:
@@ -20,15 +20,20 @@ format:
 
 ::: {.hero}
 ::: {.hero-copy}
-## Marine ecologist and conservation scientist working across climate change, ocean biodiversity, and reproducible data science.
+## Marine climate-change ecology, biodiversity redistribution, and conservation planning.
 
 # Dr Isaac Brito-Morales
 
-I study how climate change reshapes biodiversity in the ocean, and I build reproducible analyses that help conservation decisions travel from data to action.
+My research links climate velocity, species distribution modelling, and conservation planning to forecast marine biodiversity redistribution and design climate-smart ocean protection.
 
 ::: {.hero-actions}
-[View publications](publications.qmd){.btn .btn-primary}
-[Download CV](content/pdf/isaac_brito_morales_academic_cv.pdf){.btn .btn-outline}
+[Download CV](content/pdf/isaac_brito_morales_academic_cv.pdf){.btn .btn-primary}
+[Publications](publications.qmd){.btn .btn-outline}
+[Projects](projects.qmd){.btn .btn-outline}
+:::
+
+::: {.profile-links}
+[Google Scholar](https://scholar.google.com.au/citations?hl=en&view_op=list_works&gmla=AJsN-F5xl24DTIsGvaLU0eC3m1MDcho9MYiREe36Fg2N9Gi43a7GrLAl9R9cx9tlP3Ojy3Pbw3vQR5GjWGaxFt8PX-UPtBPkYpyCpTKp2huz5V-G2VpbMQ0&user=o0-V01oAAAAJ#d=gsc_md_cod&t=1777789187183&u=%2Fcitations%3Fview_op%3Dlist_colleagues%26hl%3Den%26json%3D%26user%3Do0-V01oAAAAJ%23t%3Dgsc_cod_lc) · [ORCID](https://orcid.org/0000-0003-0073-2431) · [GitHub](https://github.com/IsaakBM) · [LinkedIn](https://www.linkedin.com/in/isaakbm/)
 :::
 :::
 
@@ -37,123 +42,181 @@ I study how climate change reshapes biodiversity in the ocean, and I build repro
 :::
 :::
 
-::: {.content-band}
-::: {.content-grid}
-::: {.intro-copy}
-## What I Work On
+::: {.content-band .program-band}
+## Research Program
 
-I am a marine ecologist and conservation scientist focused on species redistribution, marine climate exposure, conservation planning, and open, reproducible workflows in R.
+Marine biodiversity is redistributing as climate change alters the physical structure of the ocean. I develop climate metrics, 3D species distribution models, and reproducible data tools that connect ecological forecasts to conservation planning, protected-area design, and ocean governance.
 
-My work connects global environmental datasets, ecological theory, and practical conservation needs, with a particular interest in how ocean dynamics shape biodiversity patterns and climate adaptation.
+::: {.snapshot-grid .proof-cards}
+::: {.snapshot-item}
+**10+ papers**
+
+published or in press
 :::
 
-::: {.stat-panel}
-::: {.stat}
-**Climate change**
+::: {.snapshot-item}
+**Flagship journals**
 
-Species redistributions, exposure, velocity, and ecological risk.
+*Nature Climate Change*, *TREE*, *Nature*
 :::
 
-::: {.stat}
-**Marine conservation**
+::: {.snapshot-item}
+**Applied leadership**
 
-Decision-support science for biodiversity, planning, and adaptation.
+analysis, senior-author, and writing roles
 :::
 
-::: {.stat}
-**Reproducible R**
+::: {.snapshot-item}
+**Funded projects**
 
-Transparent workflows, reusable code, and teaching-friendly analysis.
+IKI Save the Blue Five and Belmont Forum Ocean Front Change
 :::
 :::
+
+::: {.research-tags .compact-tags}
+`marine climate-change ecology` `biodiversity redistribution` `species distribution modelling` `conservation planning` `climate adaptation` `reproducible R`
 :::
 :::
 
 ::: {.content-band .subtle}
-## Featured Highlights
+## Selected Publications
 
-::: {.feature-grid}
-::: {.feature-card}
-### New Paper on Marine Climate Refugia
+Three first-author papers anchor the research program; the full publication page includes contribution roles, DOI links, preprints, and code repositories.
 
-![](content/images/marine-climate-refugia-figure.png){.feature-image fig-alt="Illustration of marine climate refugia showing meteorological, oceanographic, biological, depth, and geological processes."}
-
-::: {.image-credit}
-Figure: Trends in Ecology & Evolution
+::: {.publication-list .selected-publications}
+::: {.publication}
+::: {.pub-meta}
+**First author** · *Nature Climate Change* · 2022
 :::
 
-As the world works toward protecting 30% of the ocean by 2030, a central question remains: which places will still support biodiversity as climate change accelerates? Our new paper in *Trends in Ecology & Evolution* reviews how marine climate refugia can help guide more climate-smart ocean conservation.
+### Towards climate-smart, three-dimensional protected areas for biodiversity conservation in the high seas.
 
-[Read the paper](https://www.sciencedirect.com/science/article/pii/S0169534726000807)
+**Brito-Morales I**, Schoeman DS, Everett J, Klein CJ, Dunn D, Garcia Molinos J, Burrows MT, Buenafe KCV, Dominguez RM, Possingham HP, Richardson AJ. *Nature Climate Change* 12, 402-407.
+
+::: {.tag-row}
+`climate adaptation` `conservation planning` `high seas` `spatial ecology`
 :::
 
-::: {.feature-card}
-### Current Projects
+**Why it matters:** Advances climate-smart, depth-aware protected-area design for biodiversity conservation beyond national jurisdictions.
 
-![](content/images/whale-shark-chris-rohner.jpg){.feature-image fig-alt="Whale shark swimming underwater. Photo by Chris Rohner."}
-
-::: {.image-credit}
-Photo: Chris Rohner
+[DOI](https://doi.org/10.1038/s41558-022-01323-7)
 :::
 
-**Save the Blue 5:** Building 3D species distribution models and climate-data workflows to assess how climate change may reshape migratory marine megafauna habitat across the Southeast Pacific.
-
-[Visit project](https://savethebluefive.net/)
+::: {.publication}
+::: {.pub-meta}
+**First author** · *Nature Climate Change* · 2020
 :::
 
-::: {.feature-card}
-### Notes and Blog
+### Climate velocity reveals increasing exposure of deep-ocean biodiversity to future warming.
 
-![](content/images/noaa-earth-2026-04-14.jpg){.feature-image fig-alt="NOAA satellite view of Earth over the Pacific Ocean on April 14, 2026."}
+**Brito-Morales I**, Schoeman DS, Garcia Molinos J, Burrows MT, Klein CJ, Arafeh-Dalmau N, Kaschner K, Garilao C, Kesner-Reyes K, Richardson AJ. *Nature Climate Change* 10, 576-581.
 
-::: {.image-credit}
-Image: NOAA NESDIS/STAR
+::: {.tag-row}
+`climate velocity` `marine biodiversity` `deep ocean` `global change ecology`
 :::
 
-**Ocean Climate Downscaling:** read a blog I made about building a workflow to transform coarse-resolution future ocean projections into high-resolution 3D marine data layers for species distribution models, climate exposure analyses, and conservation planning.
+**Why it matters:** Shows that deep-ocean biodiversity faces increasing climate exposure, extending climate-risk assessment beyond surface ecosystems.
 
-[Read the post](posts/ocean-climate-downscaling-pipeline/)
-
-::: {.share-menu data-share-url="https://isaakbm.github.io/posts/ocean-climate-downscaling-pipeline/" data-share-title="How I Built an Ocean Climate Downscaling Pipeline" data-share-text="Ocean Climate Downscaling: a workflow for transforming coarse-resolution future ocean projections into high-resolution 3D marine data layers for species distribution models, climate exposure analyses, and conservation planning."}
-<button class="share-menu-toggle" type="button" aria-expanded="false">
-  <i class="bi bi-share" aria-hidden="true"></i>
-  <span>Share</span>
-</button>
-
-::: {.share-menu-panel}
-[LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fisaakbm.github.io%2Fposts%2Focean-climate-downscaling-pipeline%2F){target="_blank" rel="noopener"}
-
-[Bluesky](https://bsky.app/intent/compose?text=Ocean%20Climate%20Downscaling%3A%20https%3A%2F%2Fisaakbm.github.io%2Fposts%2Focean-climate-downscaling-pipeline%2F){target="_blank" rel="noopener"}
-
-<button class="share-menu-action" type="button" data-share-native>Native share</button>
-
-<button class="share-menu-action" type="button" data-copy-link>Copy link</button>
+[DOI](https://doi.org/10.1038/s41558-020-0773-5)
 :::
+
+::: {.publication}
+::: {.pub-meta}
+**First author** · *Trends in Ecology & Evolution* · 2018
 :::
+
+### Climate velocity can inform conservation in a warming world.
+
+**Brito-Morales I**, Garcia Molinos J, Schoeman DS, Burrows MT, Poloczanska ES, Brown CJ, Ferrier S, Harwood TD, Klein CJ, McDonald-Madden E, Moore PJ, Pandolfi JM, Watson JEM, Wenger AS, Richardson AJ. *Trends in Ecology & Evolution* 33, 441-457.
+
+::: {.tag-row}
+`climate velocity` `conservation science` `climate adaptation` `spatial ecology`
 :::
+
+**Why it matters:** A widely used synthesis linking climate velocity metrics to conservation decisions under climate change.
+
+[DOI](https://doi.org/10.1016/j.tree.2018.03.009)
 :::
+
+:::
+
+[Browse publications](publications.qmd){.text-link}
 :::
 
 ::: {.content-band}
-## Current Snapshot
+## Research Tools & Projects
 
-::: {.timeline}
-::: {.timeline-item}
-**Senior Associate Scientist, [Conservation International](https://www.conservation.org/home)**
+Applied outputs include Shiny viewers, climate-data pipelines, and reusable teaching/workshop material that make ocean-climate and biodiversity data easier to inspect, model, and use in conservation decisions.
 
-Leading applied research on marine biodiversity, ocean fronts, climate change, and conservation planning.
+::: {.project-grid .compact-projects}
+::: {.project-card}
+## Ocean Downscaling Viewer
+
+High-resolution derived ocean products for mapping, inspection, and summary statistics across baseline and future layers.
+
+[Open app](https://isaakbm-ocean-downscaling-viewer.share.connect.posit.cloud/) · [Related post](posts/ocean-climate-downscaling-pipeline/)
 :::
 
-::: {.timeline-item}
-**Research Associate, [UC Santa Barbara Marine Science Institute](https://msi.ucsb.edu/)**
+::: {.project-card}
+## Megafauna Data Viewer
 
-Collaborating on marine science, conservation, and global environmental data analysis.
+Marine megafauna occurrence records for filtering, mapping, and data-ready review in the Southeast Pacific.
+
+[Open app](https://isaakbm-megafauna-data-viewer.share.connect.posit.cloud/) · [Save the Blue 5](https://savethebluefive.net/)
 :::
 
-::: {.timeline-item}
-**PhD, [The University of Queensland](https://www.uq.edu.au/)**
+::: {.project-card}
+## Ocean Fronts and Biodiversity
 
-Biological sciences, climate change, and conservation.
+Research on how dynamic oceanographic fronts structure marine biodiversity, migratory megafauna habitat, and conservation priorities.
+
+[Project link](https://www.conservation.org/projects/oceanfrontchange)
+:::
+:::
+
+[View all projects and teaching materials](projects.qmd){.text-link}
+:::
+
+::: {.content-band .subtle}
+## Teaching & Supervision
+
+::: {.compact-info-grid}
+::: {.info-panel}
+### Teaching Areas
+
+Quantitative ecology, climate-change biology, spatial modelling, marine conservation, biodiversity data science, statistics, and reproducible R workflows.
+:::
+
+::: {.info-panel}
+### Instruction & Workshops
+
+UCSB ESM240 Climate Change Biology; UQ data-analysis and biostatistics courses; workshops on ocean models, marine megafauna, CMIP data, Git/GitHub, and conservation workflows.
+:::
+:::
+
+[Explore teaching materials](projects.qmd#workshops-and-teaching-materials){.text-link}
+:::
+
+::: {.content-band}
+## Future Research Directions
+
+::: {.compact-info-grid .three-up}
+::: {.info-panel}
+### Forecasting Redistribution
+
+Integrate climate velocity, 3D ocean conditions, species traits, and uncertainty-aware biodiversity models.
+:::
+
+::: {.info-panel}
+### Linking Models to Planning
+
+Connect biodiversity models to protected-area design, dynamic management, and marine spatial planning across depth, time, and jurisdiction.
+:::
+
+::: {.info-panel}
+### Building Adaptation Tools
+
+Translate ocean-climate data into decision-support products for governance, protected-area design, and conservation practice.
 :::
 :::
 :::

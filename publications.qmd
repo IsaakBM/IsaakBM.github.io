@@ -3,41 +3,184 @@ title: "Publications"
 toc: true
 ---
 
-This page gathers accepted, in-review, and published work from my research on marine climate change, conservation planning, climate velocity, and ocean biodiversity.
+Selected publications are organized for quick scanning by search committees, collaborators, and conservation-science partners. Tags highlight major research themes; DOI links are included where available.
+
+## Selected / Flagship Papers
+
+::: {.publication-list}
+::: {.publication}
+::: {.pub-meta}
+**First author** · *Nature Climate Change* · 2022
+:::
+
+### Towards climate-smart, three-dimensional protected areas for biodiversity conservation in the high seas.
+
+**Brito-Morales I**, Schoeman DS, Everett J, Klein CJ, Dunn D, Garcia Molinos J, Burrows MT, Buenafe KCV, Dominguez RM, Possingham HP, Richardson AJ. *Nature Climate Change* 12, 402-407.
+
+::: {.tag-row}
+`climate adaptation` `conservation planning` `high seas` `spatial ecology`
+:::
+
+**Significance:** Advances climate-smart, depth-aware protected-area design for biodiversity conservation in the high seas.
+
+[DOI](https://doi.org/10.1038/s41558-022-01323-7)
+:::
+
+::: {.publication}
+::: {.pub-meta}
+**First author** · *Nature Climate Change* · 2020
+:::
+
+### Climate velocity reveals increasing exposure of deep-ocean biodiversity to future warming.
+
+**Brito-Morales I**, Schoeman DS, Garcia Molinos J, Burrows MT, Klein CJ, Arafeh-Dalmau N, Kaschner K, Garilao C, Kesner-Reyes K, Richardson AJ. *Nature Climate Change* 10, 576-581.
+
+::: {.tag-row}
+`climate velocity` `marine biodiversity` `deep ocean` `global change ecology`
+:::
+
+**Significance:** Shows that deep-ocean biodiversity faces increasing exposure to future warming, broadening climate-risk assessment beyond surface ecosystems.
+
+[DOI](https://doi.org/10.1038/s41558-020-0773-5)
+:::
+
+::: {.publication}
+::: {.pub-meta}
+**First author** · *Trends in Ecology & Evolution* · 2018
+:::
+
+### Climate velocity can inform conservation in a warming world.
+
+**Brito-Morales I**, Garcia Molinos J, Schoeman DS, Burrows MT, Poloczanska ES, Brown CJ, Ferrier S, Harwood TD, Klein CJ, McDonald-Madden E, Moore PJ, Pandolfi JM, Watson JEM, Wenger AS, Richardson AJ. *Trends in Ecology & Evolution* 33, 441-457.
+
+::: {.tag-row}
+`climate velocity` `conservation science` `climate adaptation` `spatial ecology`
+:::
+
+**Significance:** Synthesizes how climate velocity can guide conservation decisions as species and environmental conditions move under climate change.
+
+[DOI](https://doi.org/10.1016/j.tree.2018.03.009)
+:::
+
+::: {.publication}
+::: {.pub-meta}
+**Co-author** · conceptual/methods contributor · *Trends in Ecology & Evolution* · 2023
+:::
+
+### Demystifying global climate models for use in the life sciences.
+
+Schoeman DS, Sen Gupta A, Harrison CS, Everett J, **Brito-Morales I**, Hannah L, Bopp L, Roehrdanz P, Richardson AJ. *Trends in Ecology & Evolution*.
+
+::: {.tag-row}
+`climate models` `biodiversity data science` `reproducible workflows`
+:::
+
+**Significance:** Helps ecologists and conservation scientists use global climate-model products more defensibly in biodiversity research.
+
+[DOI](https://doi.org/10.1016/j.tree.2023.04.005)
+:::
+
+::: {.publication}
+::: {.pub-meta}
+**Co-author** · climate-velocity and reproducible figures lead · *Trends in Ecology & Evolution* · 2026
+:::
+
+### Identifying marine climate refugia to advance climate-smart conservation.
+
+Sanz-Martin M, Olguin-Jacobson C, Bolin JA, Quiles-Pons C, **Brito-Morales I**, Garcia Molinos J, Hidalgo M, Alabia ID, Gissi E, Provost MM, Micheli F, Arafeh-Dalmau N. *Trends in Ecology & Evolution*. In press.
+
+::: {.tag-row}
+`marine refugia` `climate-smart conservation` `protected areas`
+:::
+
+**Significance:** Reviews how marine climate refugia can strengthen climate-smart conservation and protected-area planning.
+
+[DOI](https://doi.org/10.1016/j.tree.2026.04.007) | [Code](https://github.com/IsaakBM/tree_climate_refugia)
+:::
+:::
 
 ## Accepted / In Press
 
 ::: {.publication-list}
 ::: {.publication}
-**Identifying marine climate refugia to advance climate-smart conservation.**  
-Marina Sanz-Martin, Carolina Olguin-Jacobson, Jessica A. Bolin, Carla Quiles-Pons, **Isaac Brito-Morales**, Jorge Garcia Molinos, Manuel Hidalgo, Irene D. Alabia, Elena Gissi, Mikaela M. Provost, Fiorenza Micheli, Nur Arafeh-Dalmau. 2026. *Trends in Ecology & Evolution*. In press.  
-[DOI](https://doi.org/10.1016/j.tree.2026.04.007)
+::: {.pub-meta}
+**Co-author** · climate-velocity and reproducible figures lead · *Trends in Ecology & Evolution* · 2026
+:::
+
+### Identifying marine climate refugia to advance climate-smart conservation.
+
+Marina Sanz-Martin, Carolina Olguin-Jacobson, Jessica A. Bolin, Carla Quiles-Pons, **Isaac Brito-Morales**, Jorge Garcia Molinos, Manuel Hidalgo, Irene D. Alabia, Elena Gissi, Mikaela M. Provost, Fiorenza Micheli, Nur Arafeh-Dalmau. 2026. *Trends in Ecology & Evolution*. In press.
+
+::: {.tag-row}
+`marine refugia` `climate adaptation` `conservation planning`
+:::
+
+[DOI](https://doi.org/10.1016/j.tree.2026.04.007) | [Code](https://github.com/IsaakBM/tree_climate_refugia)
 :::
 :::
 
 ## In Review
 
-Manuscripts available upon request unless a preprint is linked.
+Manuscripts are available upon request unless a preprint is linked.
 
 ::: {.publication-list}
 ::: {.publication}
-**Evolving area-based conservation for a dynamic ocean.**  
+::: {.pub-meta}
+**First author**
+:::
+
+### Evolving area-based conservation for a dynamic ocean.
+
 **Isaac Brito-Morales**, Yulia Egorova, Lee Hannah, Guillermo Ortuño Crespo, Nur Arafeh-Dalmau. In review.
+
+::: {.tag-row}
+`dynamic ocean` `area-based conservation` `climate adaptation`
+:::
 :::
 
 ::: {.publication}
-**Multifaceted thermal exposure reveals climate refugia shortfalls in the Mediterranean marine protected areas.**  
+::: {.pub-meta}
+**Co-author** · writing and workflow support
+:::
+
+### Multifaceted thermal exposure reveals climate refugia shortfalls in the Mediterranean marine protected areas.
+
 Ian Omedes Bassat, Manuel Hidalgo, Carla Quiles-Pons, Jorge Garcia Molinos, **Isaac Brito-Morales**, Nur Arafeh-Dalmau, Javier Soto-Navarro, Marina Sanz-Martin. In review.
+
+::: {.tag-row}
+`climate refugia` `thermal exposure` `marine protected areas`
+:::
 :::
 
 ::: {.publication}
-**Ocean fronts concentrate fishing pressure on threatened megafauna.**  
+::: {.pub-meta}
+**Senior author** · analysis, figures, and code lead
+:::
+
+### Ocean fronts concentrate fishing pressure on threatened megafauna.
+
 Lee Hannah, Sarayu Ramnath, Kylie L. Scales, Vincent Rossi, Ana Sequeira, Tammy E. Davies, Elliott Hazen, Daniel Dunn, Peter I. Miller, Sophie Laran, Valeria Falabella, Lenaya-Aiden Gonzales, **Isaac Brito-Morales**. In review. Prepared for submission to *Proceedings of the National Academy of Sciences (PNAS)*.
+
+::: {.tag-row}
+`ocean fronts` `marine megafauna` `fishing pressure` `conservation policy`
+:::
+
+[Code](https://github.com/IsaakBM/fronts-threatened-megafauna)
 :::
 
 ::: {.publication}
-**Megafauna show pervasive yet distinct affinity to ocean fronts: the urgent need for adaptive conservation in a warming world.**  
-**Isaac Brito-Morales**, Boris Dewitte, Floriane Sudre, Christoph A. Rohner, Elliott L. Hazen, Kylie L. Scales, Matthieu Le Corre, Audrey Jaeger, Sophie Laran, Olivier Bousquet, Ana M. M. Sequeira, Tammy E. Davies, Daniel C. Dunn, Ronel Nel, Lee Hannah, Vincent Rossi. *Commun. Biol.* In review.  
+::: {.pub-meta}
+**First author** · Preprint available
+:::
+
+### Megafauna show pervasive yet distinct affinity to ocean fronts: the urgent need for adaptive conservation in a warming world.
+
+**Isaac Brito-Morales**, Boris Dewitte, Floriane Sudre, Christoph A. Rohner, Elliott L. Hazen, Kylie L. Scales, Matthieu Le Corre, Audrey Jaeger, Sophie Laran, Olivier Bousquet, Ana M. M. Sequeira, Tammy E. Davies, Daniel C. Dunn, Ronel Nel, Lee Hannah, Vincent Rossi. *Commun. Biol.* In review.
+
+::: {.tag-row}
+`ocean fronts` `marine biodiversity` `SDM` `adaptive conservation`
+:::
+
 [Preprint DOI](https://doi.org/10.1101/2025.06.17.660201)
 :::
 :::
@@ -46,88 +189,174 @@ Lee Hannah, Sarayu Ramnath, Kylie L. Scales, Vincent Rossi, Ana Sequeira, Tammy 
 
 ::: {.publication-list}
 ::: {.publication}
-**Current approaches and future opportunities for climate-smart protected areas.**  
-Buenafe KCV, Dunn DC, Metaxas A, Schoeman DS, Everett JD, Pidd A, Hanson JO, Bentley LK, Kim SW, Neubert S, Scales KL, Dabala A, **Brito-Morales I**, Richardson AJ. 2025. *Nature Reviews Biodiversity*.  
+::: {.pub-meta}
+**Co-author** · climate-velocity section lead · *Nature Reviews Biodiversity* · 2025
+:::
+
+### Current approaches and future opportunities for climate-smart protected areas.
+
+Buenafe KCV, Dunn DC, Metaxas A, Schoeman DS, Everett JD, Pidd A, Hanson JO, Bentley LK, Kim SW, Neubert S, Scales KL, Dabala A, **Brito-Morales I**, Richardson AJ. *Nature Reviews Biodiversity*.
+
+::: {.tag-row}
+`climate-smart conservation` `protected areas` `climate adaptation`
+:::
+
 [DOI](https://doi.org/10.1038/s44358-025-00041-0)
 :::
 
 ::: {.publication}
-**To save the high seas, plan for climate change.**  
-Hannah L, Irvine A, **Brito-Morales I**, Fuller S, Davies T, Tittensor D, Reville G, Shackell N, Hennicke J, Stanley R. 2024. *Nature*.  
+::: {.pub-meta}
+**Analysis and writing lead** · *Nature* · 2024
+:::
+
+### To save the high seas, plan for climate change.
+
+Hannah L, Irvine A, **Brito-Morales I**, Fuller S, Davies T, Tittensor D, Reville G, Shackell N, Hennicke J, Stanley R. *Nature*.
+
+::: {.tag-row}
+`high seas` `climate policy` `marine spatial planning`
+:::
+
 [DOI](https://doi.org/10.1038/d41586-024-01720-2)
 :::
 
 ::: {.publication}
-**Climate velocity drives unexpected southward patterns of species shifts in the Western Mediterranean Sea.**  
-Sanz-Martin M, Hidalgo M, Puerta P, Garcia Molinos J, Zamanillo M, **Brito-Morales I**, Gonzalez-Irusta JM, Esteban A, Punzon A, Garcia-Rodriguez E, Vivas M, Lopez-Lopez L. 2024. *Ecological Indicators*.  
+::: {.pub-meta}
+**Co-author** · *Ecological Indicators* · 2024
+:::
+
+### Climate velocity drives unexpected southward patterns of species shifts in the Western Mediterranean Sea.
+
+Sanz-Martin M, Hidalgo M, Puerta P, Garcia Molinos J, Zamanillo M, **Brito-Morales I**, Gonzalez-Irusta JM, Esteban A, Punzon A, Garcia-Rodriguez E, Vivas M, Lopez-Lopez L. *Ecological Indicators*.
+
+::: {.tag-row}
+`climate velocity` `species shifts` `marine biodiversity`
+:::
+
 [DOI](https://doi.org/10.1016/j.ecolind.2024.111741)
 :::
 
 ::: {.publication}
-**Demystifying global climate models for use in the life sciences.**  
-Schoeman DS, Sen Gupta A, Harrison CS, Everett J, **Brito-Morales I**, Hannah L, Bopp L, Roehrdanz P, Richardson AJ. 2023. *Trends in Ecology & Evolution*.  
+::: {.pub-meta}
+**Co-author** · conceptual/methods contributor · *Trends in Ecology & Evolution* · 2023
+:::
+
+### Demystifying global climate models for use in the life sciences.
+
+Schoeman DS, Sen Gupta A, Harrison CS, Everett J, **Brito-Morales I**, Hannah L, Bopp L, Roehrdanz P, Richardson AJ. *Trends in Ecology & Evolution*.
+
+::: {.tag-row}
+`climate models` `life sciences` `biodiversity data science`
+:::
+
 [DOI](https://doi.org/10.1016/j.tree.2023.04.005)
 :::
 
 ::: {.publication}
-**A metric-based framework for climate-smart conservation planning.**  
-Buenafe KCV, Dunn D, Everett J, **Brito-Morales I**, Schoeman DS, Hanson JO, Dabala A, Neubert S, Cannicci S, Kaschner K, Richardson AJ. 2023. *Ecological Applications*.  
+::: {.pub-meta}
+**Co-author** · manuscript writing contributor · *Ecological Applications* · 2023
+:::
+
+### A metric-based framework for climate-smart conservation planning.
+
+Buenafe KCV, Dunn D, Everett J, **Brito-Morales I**, Schoeman DS, Hanson JO, Dabala A, Neubert S, Cannicci S, Kaschner K, Richardson AJ. *Ecological Applications*.
+
+::: {.tag-row}
+`conservation planning` `climate adaptation` `metrics`
+:::
+
 [DOI](https://doi.org/10.1002/eap.2852)
 :::
 
 ::: {.publication}
-**Towards climate-smart, three-dimensional protected areas for biodiversity conservation in the high seas.**  
-**Brito-Morales I**, Schoeman DS, Everett J, Klein CJ, Dunn D, Garcia Molinos J, Burrows MT, Buenafe KCV, Dominguez RM, Possingham HP, Richardson AJ. 2022. *Nature Climate Change* 12, 402-407.  
+::: {.pub-meta}
+**First author** · *Nature Climate Change* · 2022
+:::
+
+### Towards climate-smart, three-dimensional protected areas for biodiversity conservation in the high seas.
+
+**Brito-Morales I**, Schoeman DS, Everett J, Klein CJ, Dunn D, Garcia Molinos J, Burrows MT, Buenafe KCV, Dominguez RM, Possingham HP, Richardson AJ. *Nature Climate Change* 12, 402-407.
+
+::: {.tag-row}
+`conservation planning` `high seas` `climate adaptation`
+:::
+
 [DOI](https://doi.org/10.1038/s41558-022-01323-7)
 :::
 
 ::: {.publication}
-**Incorporating climate velocity into the design of climate-smart networks of marine protected areas.**  
-Arafeh-Dalmau N, **Brito-Morales I**, Schoeman DS, Possingham HP, Klein CJ, Richardson AJ. 2021. *Methods in Ecology and Evolution*.  
+::: {.pub-meta}
+**Equal lead author** · climate-velocity methods · *Methods in Ecology and Evolution* · 2021
+:::
+
+### Incorporating climate velocity into the design of climate-smart networks of marine protected areas.
+
+Arafeh-Dalmau N, **Brito-Morales I**, Schoeman DS, Possingham HP, Klein CJ, Richardson AJ. *Methods in Ecology and Evolution*.
+
+::: {.tag-row}
+`climate velocity` `marine protected areas` `conservation planning`
+:::
+
 [DOI](https://doi.org/10.1111/2041-210X.13675)
 :::
 
 ::: {.publication}
-**Climate velocity reveals increasing exposure of deep-ocean biodiversity to future warming.**  
-**Brito-Morales I**, Schoeman DS, Garcia Molinos J, Burrows MT, Klein CJ, Arafeh-Dalmau N, Kaschner K, Garilao C, Kesner-Reyes K, Richardson AJ. 2020. *Nature Climate Change* 10, 576-581.  
+::: {.pub-meta}
+**First author** · *Nature Climate Change* · 2020
+:::
+
+### Climate velocity reveals increasing exposure of deep-ocean biodiversity to future warming.
+
+**Brito-Morales I**, Schoeman DS, Garcia Molinos J, Burrows MT, Klein CJ, Arafeh-Dalmau N, Kaschner K, Garilao C, Kesner-Reyes K, Richardson AJ. *Nature Climate Change* 10, 576-581.
+
+::: {.tag-row}
+`climate velocity` `marine biodiversity` `deep ocean`
+:::
+
 [DOI](https://doi.org/10.1038/s41558-020-0773-5)
 :::
 
 ::: {.publication}
-**Climate velocity can inform conservation in a warming world.**  
-**Brito-Morales I**, Garcia Molinos J, Schoeman DS, Burrows MT, Poloczanska ES, Brown CJ, Ferrier S, Harwood TD, Klein CJ, McDonald-Madden E, Moore PJ, Pandolfi JM, Watson JEM, Wenger AS, Richardson AJ. 2018. *Trends in Ecology & Evolution* 33, 441-457.  
+::: {.pub-meta}
+**First author** · *Trends in Ecology & Evolution* · 2018
+:::
+
+### Climate velocity can inform conservation in a warming world.
+
+**Brito-Morales I**, Garcia Molinos J, Schoeman DS, Burrows MT, Poloczanska ES, Brown CJ, Ferrier S, Harwood TD, Klein CJ, McDonald-Madden E, Moore PJ, Pandolfi JM, Watson JEM, Wenger AS, Richardson AJ. *Trends in Ecology & Evolution* 33, 441-457.
+
+::: {.tag-row}
+`climate velocity` `conservation science` `spatial ecology`
+:::
+
 [DOI](https://doi.org/10.1016/j.tree.2018.03.009)
 :::
 :::
 
-## Highly Cited Work
+## Research Outputs Beyond Papers
 
 ::: {.publication-list}
 ::: {.publication}
-**Climate velocity can inform conservation in a warming world.**  
-**Brito-Morales I** et al. 2018. *Trends in Ecology & Evolution*.  
+### Ocean Downscaling Viewer
+
+Interactive Shiny tool for inspecting high-resolution derived ocean products, including baseline and future layers, depth zones, regional overlays, and summary statistics.
+
+::: {.tag-row}
+`R/Shiny` `climate downscaling` `decision support`
+:::
+
+[Open app](https://isaakbm-ocean-downscaling-viewer.share.connect.posit.cloud/)
 :::
 
 ::: {.publication}
-**Climate velocity reveals increasing exposure of deep-ocean biodiversity to future warming.**  
-**Brito-Morales I** et al. 2020. *Nature Climate Change*.  
-:::
-:::
+### Megafauna Data Viewer
 
-## Datasets and Software Papers
+Interactive Shiny tool for filtering, mapping, and reviewing marine megafauna occurrence records for the Save the Blue 5 project.
 
-::: {.construction}
-Under construction.
+::: {.tag-row}
+`R/Shiny` `marine megafauna` `biodiversity data`
 :::
 
-## Invited Reviews or Perspectives
-
-::: {.construction}
-Under construction.
+[Open app](https://isaakbm-megafauna-data-viewer.share.connect.posit.cloud/) | [Save the Blue 5](https://savethebluefive.net/)
 :::
-
-## In Preparation
-
-::: {.construction}
-Empty for now.
 :::

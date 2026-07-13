@@ -1,39 +1,83 @@
 ---
 title: "Projects"
-description: "Reusable research, workshops, datasets, and tools."
+description: "Research tools, applied conservation projects, and teaching materials."
 ---
 
-Projects make the site useful beyond a CV. This is where people can find things to reuse, cite, adapt, or invite you to talk about.
+These projects emphasize reusable science: data products, decision-support tools, workshops, and workflows that help collaborators move from climate and biodiversity data to conservation action.
+
+## Selected Research Tools & Projects
 
 ::: {.project-grid}
 ::: {.project-card}
+## Ocean Downscaling Viewer
+
+Interactive viewer for high-resolution derived ocean products, designed for mapping, inspection, and summary statistics across baseline and future products.
+
+**Methods and skills:** R/Shiny, spatial raster workflows, ocean-climate downscaling, baseline and future climatologies, depth layers, regional overlays.
+
+**Conservation or policy relevance:** Supports inspection of climate layers used in species distribution models, exposure analyses, and marine spatial planning.
+
+[Open app](https://isaakbm-ocean-downscaling-viewer.share.connect.posit.cloud/) | [Related post](posts/ocean-climate-downscaling-pipeline/)
+:::
+
+::: {.project-card}
+## Megafauna Data Viewer
+
+Interactive explorer for marine megafauna occurrence records, with filters for species, data source, telemetry or observation records, quality control, year, and exclusive economic zone overlays.
+
+**Methods and skills:** R/Shiny, biodiversity-data processing, telemetry and observation data, interactive maps, quality-control workflows.
+
+**Conservation or policy relevance:** Makes Save the Blue 5 biodiversity data easier to review, communicate, and use in climate-informed conservation analyses for the Southeast Pacific.
+
+[Open app](https://isaakbm-megafauna-data-viewer.share.connect.posit.cloud/) | [Save the Blue 5](https://savethebluefive.net/)
+:::
+
+::: {.project-card}
+## Save the Blue 5
+
+Applied research on climate change, marine megafauna, and conservation planning in the Southeast Pacific, including data workflows and modelling products for migratory species.
+
+**Methods and skills:** Species distribution modelling, climate-data processing, spatial ecology, marine megafauna data synthesis, collaborative conservation science.
+
+**Conservation or policy relevance:** Supports climate-smart conservation planning for threatened and migratory marine species across national waters and regional ocean governance contexts.
+
+[Project site](https://savethebluefive.net/) | [Megafauna Data Viewer](https://isaakbm-megafauna-data-viewer.share.connect.posit.cloud/)
+:::
+
+::: {.project-card}
 ## Ocean Fronts and Biodiversity
 
-Research on how oceanographic fronts structure marine biodiversity and conservation priorities.
+Research on how oceanographic fronts structure marine biodiversity, influence fishing pressure, and shape conservation priorities in a dynamic ocean.
 
-**Useful for:** conservation planning, spatial ecology, climate adaptation.
+**Methods and skills:** Spatial ecology, oceanography, ocean fronts, biodiversity modelling, climate-change analysis.
+
+**Conservation or policy relevance:** Connects dynamic habitat features to adaptive conservation, spatial management, and policy-relevant marine science.
 
 [Project link](https://www.conservation.org/projects/oceanfrontchange)
 :::
 
 ::: {.project-card}
-## Reproducible Marine Ecology in R
+## Ocean Climate Downscaling Pipeline
 
-Starter material for transparent analysis, maps, species distribution workflows, and environmental data processing.
+Workflow for transforming coarse-resolution future ocean projections into high-resolution 3D marine data layers for species distribution models and climate exposure analyses.
 
-**Useful for:** students, collaborators, workshop participants.
+**Methods and skills:** R, HPC workflows, CMIP and reanalysis products, vertical interpolation, climatologies, anomaly methods, NetCDF and tabular exports.
 
-[GitHub](https://github.com/IsaakBM)
+**Conservation or policy relevance:** Converts raw climate-model products into reusable layers for ecological forecasting, climate-risk assessment, and conservation planning.
+
+[Read the workflow post](posts/ocean-climate-downscaling-pipeline/) | [Open viewer](https://isaakbm-ocean-downscaling-viewer.share.connect.posit.cloud/)
 :::
 
 ::: {.project-card}
-## Workshops and Teaching
+## Reproducible Marine Ecology in R
 
-Hands-on teaching materials for climate change biology, marine megafauna, reproducible workflows, Git, GitHub, and environmental data processing.
+Reusable repositories and teaching material for transparent analysis, maps, species distribution workflows, environmental data processing, and collaborative code review.
 
-**Useful for:** students, collaborators, workshop participants, and people looking for reusable training material.
+**Methods and skills:** R, Git/GitHub, Quarto, spatial data, gridded climate products, biodiversity data workflows.
 
-[See materials](#workshops-and-teaching-materials)
+**Conservation or policy relevance:** Builds capacity for transparent, repeatable conservation analyses across students, collaborators, and applied research teams.
+
+[GitHub](https://github.com/IsaakBM)
 :::
 :::
 
@@ -43,9 +87,11 @@ Hands-on teaching materials for climate change biology, marine megafauna, reprod
 ::: {.project-card}
 ## Climate Change Biology Hands-on Session
 
-Course practicals for ESM 240 at the Bren School, focused on climate-smart marine conservation, CMIP6 climate data, R workflows, and applied climate change biology.
+Course practicals for ESM 240 at the Bren School, focused on climate-smart marine conservation, CMIP6 climate data, R workflows, and applied climate-change biology.
 
 **Audience:** master's students in environmental science and management.
+
+**Role:** instructor, with graduate-level lectures, assignments, project supervision, and coursework evaluation.
 
 [GitHub](https://github.com/IsaakBM/ESM_240) | [Course site](https://isaakbm.github.io/ESM_240/)
 :::
@@ -63,7 +109,7 @@ Workshop eBook and practical material from the 2024 NACECC workshop in Halifax, 
 ::: {.project-card}
 ## Megafauna and Climate Change Workshop
 
-Teaching repository for a marine megafauna and climate change workshop, collecting reusable scripts, examples, and practical material for climate-informed biodiversity work.
+Teaching repository for a marine megafauna and climate-change workshop, collecting reusable scripts, examples, and practical material for climate-informed biodiversity work.
 
 **Audience:** researchers and students working with marine species, climate exposure, and reproducible analysis.
 
@@ -73,7 +119,7 @@ Teaching repository for a marine megafauna and climate change workshop, collecti
 ::: {.project-card}
 ## Guide to Climate Models in R
 
-Older but still useful teaching notes for working with climate model outputs in R, especially as historical context for climate-data workflows and student onboarding.
+Teaching notes for working with climate-model outputs in R, useful for onboarding students and collaborators to climate-data workflows.
 
 **Audience:** learners getting started with climate model data in R.
 
@@ -83,7 +129,7 @@ Older but still useful teaching notes for working with climate model outputs in 
 ::: {.project-card}
 ## Climate Data Operators Guide
 
-Introductory guide to using CDO for CMIP climate data manipulation, including regridding, interpolation, batch processing, and summary operations on netCDF files.
+Introductory guide to using CDO for CMIP climate-data manipulation, including regridding, interpolation, batch processing, and summary operations on netCDF files.
 
 **Audience:** students and analysts working with gridded climate data.
 

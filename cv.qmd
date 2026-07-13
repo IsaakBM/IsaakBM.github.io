@@ -1,30 +1,40 @@
 ---
 title: "CV"
-description: "Curriculum vitae and professional profile."
+description: "Curriculum vitae and academic profile."
 ---
 
 [Download the current PDF CV](content/pdf/isaac_brito_morales_academic_cv.pdf){.btn .btn-primary}
 
 ## Profile
 
-Marine ecologist and conservation scientist working on climate change, biodiversity, species redistributions, and reproducible environmental data science.
+Marine climate-change ecologist and conservation scientist working on biodiversity redistribution, climate velocity, species distribution modelling, spatial ecology, and applied marine conservation.
 
-## Experience
+My work connects global environmental datasets, ecological theory, reproducible workflows, and conservation decision-making, with a focus on how ocean warming reshapes biodiversity patterns and what that means for protected areas, climate adaptation, and ocean governance.
+
+## Current Roles
 
 **Senior Associate Scientist, Conservation International**  
 July 2024 - Present
 
-**Associate Research Scientist, Conservation International**  
-November 2021 - June 2024
-
 **Research Associate, UC Santa Barbara Marine Science Institute**  
 November 2024 - Present
+
+## Previous Roles
+
+**Associate Research Scientist, Conservation International**  
+November 2021 - June 2024
 
 **Affiliated Researcher, UC Santa Barbara Marine Science Institute**  
 January 2022 - October 2024
 
 **Postdoctoral Research Fellow, The University of Queensland**  
 February 2021 - September 2021
+
+**Project Manager, Centro de Ecologia Aplicada**  
+2010 - 2016
+
+**Lecturer in Experimental Design, Universidad Católica de la Santísima Concepción**  
+2008 - 2009
 
 ## Education
 
@@ -34,22 +44,57 @@ Climate Change and Conservation, 2021
 **BSc in Marine Biology, Universidad Católica de la Santísima Concepción**  
 First Class Honours, 2008
 
-## Selected Achievements
+## Research Strengths
 
-TBA.
+- Marine climate-change ecology and biodiversity redistribution.
+- Climate velocity, climate exposure, marine climate refugia, and climate-smart conservation.
+- Species distribution modelling, spatial ecology, oceanographic fronts, and marine megafauna.
+- Conservation planning, marine protected areas, high-seas conservation, and policy-relevant science.
+- Reproducible data science in R, spatial analysis, gridded climate products, Shiny, Git/GitHub, and Quarto.
 
-## Technical Skills
+## Grants, Fellowships, and Awards
 
-TBA.
+**Save the Blue Five - IKI Project**  
+International Climate Initiative, BMUV/Germany, 2023 - Present. Co-lead on climate-change vulnerability and conservation planning for highly migratory megafauna.
 
-## Leadership and Collaboration
+**Belmont Forum / Ocean Front Change Project**  
+International project on climate and dynamic ocean features, 2021 - 2024.
 
-TBA.
+**PhD Grant**  
+Chilean National Research and Development Agency (ANID), 2016.
 
-## Recommendation Quotes
+**Academic Excellence**  
+Science Faculty, Universidad Católica de la Santísima Concepción, 2008.
 
-TBA.
+## Teaching, Training, and Mentoring
 
-## CV Versions
+Teaching and supervision interests include quantitative ecology, marine conservation, climate-change biology, R, spatial modelling, biodiversity data science, climate-model products, and reproducible research.
 
-TBA.
+**Instructor, UCSB ESM240 Climate Change Biology**  
+2023 and 2025. Designed and delivered graduate-level lectures, developed assignments, supervised projects, and evaluated coursework.
+
+**Teaching Assistant, University of Queensland**  
+2018 - 2020. Courses included Advanced Analysis of Scientific Data, Analysis of Scientific Data, Pharmacy Data Analysis and Professional Practice, Probability and Statistics in Engineering, Environmental Data Analysis, and Biostatistics and Experimental Design.
+
+**Workshop organizer and contributor**  
+Climate and Ocean Modeling Workshop at CERFACS, Climate Change and Marine Megafauna Workshop in Panama, Ocean Front Megafauna and Climate Change workshop at Acadia University, and Ocean Front and Climate Change workshop at Nelson Mandela University.
+
+**Mentoring**  
+Mentored graduate students and collaborators on Save the Blue Five climate-change assessment, megafauna-fisheries interactions, climate-smart closures for pelagic fisheries, high-seas conservation, and climate-proof marine protected areas.
+
+Selected public teaching materials are available on the [Projects page](projects.qmd#workshops-and-teaching-materials), including climate-change biology practicals, ocean-front and marine-megafauna workshop material, climate-model tutorials in R, and Climate Data Operators training notes.
+
+## Presentations and Service
+
+Invited presentations include climate change in the ocean and conservation at Encuentro del Pacífico Sudeste in Panama, and climate velocity in the ocean and implications for conservation at ASLO. Conference contributions include IMPAC5, Species on the Move, Ocean Sciences Meeting, and the Sustainability, Research and Innovation Congress.
+
+## Selected Outputs
+
+- First-author publications in *Nature Climate Change* and *Trends in Ecology & Evolution* on climate velocity, deep-ocean biodiversity exposure, and climate-smart protected areas.
+- Applied conservation-science contributions in *Nature*, *Nature Reviews Biodiversity*, *Ecological Applications*, and *Methods in Ecology and Evolution*.
+- Interactive Shiny tools for ocean-climate downscaling products and marine megafauna occurrence data.
+- Reproducible training and workshop material for students, collaborators, and conservation practitioners.
+
+## Languages
+
+Fluent Spanish and fluent English.
