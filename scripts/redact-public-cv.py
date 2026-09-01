@@ -12,18 +12,16 @@ from PIL import Image, ImageFilter
 
 REDACTIONS_BY_PAGE = {
     0: [
-        # Hide the phone number in the contact line.
-        (332, 94, 416, 110),
         # Hide the Ph.D. Grant / ANID entry in Grants and Fellowships.
-        (36, 770, 560, 806),
+        (36, 734, 560, 772),
+    ],
+    2: [
+        # Hide mentoring details to protect mentee privacy.
+        (36, 456, 560, 746),
     ],
     3: [
-        # Hide mentoring details to protect mentee privacy.
-        (36, 436, 560, 755),
-    ],
-    4: [
         # Hide referee names and email addresses.
-        (36, 24, 330, 104),
+        (36, 786, 536, 816),
     ],
 }
 
